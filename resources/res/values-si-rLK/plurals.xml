@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>එලාමය දින %dකින්</item>
+        <item>N/A</item>
+        <item>එලාමය දින %dකින්</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>එලාමය පැය %dකින්</item>
+        <item>N/A</item>
+        <item>එලාමය පැය %dකින්</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>එලාමය විනාඩි %dකින්</item>
+        <item>N/A</item>
+        <item>එලාමය විනාඩි %dකින්</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>විනාඩි %dකින්</item>
+        <item>N/A</item>
+        <item>විනාඩි %dකින්</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

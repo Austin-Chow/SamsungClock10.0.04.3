@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">Alarm čez %d dni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alarm čez %d dan</item>
+        <item quantity="two">Alarm čez %d dneva</item>
+        <item quantity="few">Alarm čez %d dni</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">Alarm čez %d ur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alarm čez %d uro</item>
+        <item quantity="two">Alarm čez %d uri</item>
+        <item quantity="few">Alarm čez %d ure</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">Alarm čez %d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alarm čez %d minuto</item>
+        <item quantity="two">Alarm čez %d minuti</item>
+        <item quantity="few">Alarm čez %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">Čez %d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Čez %d minuto</item>
+        <item quantity="two">Čez %d minuti</item>
+        <item quantity="few">Čez %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

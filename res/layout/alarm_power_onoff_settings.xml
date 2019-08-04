@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:title="@string/menu_pre_alarm_power_on" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:toolbarId="@id/toolbar" style="@style/ClockCollapsingToolbarLayoutStyle">
+            <android.support.v7.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:title="@string/menu_pre_alarm_power_on" app:popupTheme="@style/ClockThemeAppCompat" app:layout_collapseMode="pin" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:id="@id/alarm_power_list_background" android:background="@color/window_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" android:nestedScrollingEnabled="true">
+            <com.sec.android.app.clockpackage.common.view.ClockSubAppBar android:id="@id/sub_appbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListCategoryText">
+                    <TextView android:id="@id/alarm_prepower_on_desc" android:text="@string/pre_alarm_power_on_desc" style="@style/DescriptionStyle" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

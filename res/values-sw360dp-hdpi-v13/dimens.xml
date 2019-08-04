@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="timer_common_highcontrastkeyboard_layout_height">230.0dip</dimen>
+    <dimen name="timer_common_keypad_layout_height">170.0dip</dimen>
+    <dimen name="digitalclock_timeview_ampm_left_textview_margin_bottom">10.5dip</dimen>
+    <dimen name="digitalclock_timeview_number_textview_textsize">45.0dip</dimen>
+    <dimen name="stopwatch_list_index_time_text_size">14.0sp</dimen>
+    <dimen name="stopwatch_listview_line_height">52.0dip</dimen>
+    <dimen name="stopwatch_time_period_textview_width">19.0dip</dimen>
+    <dimen name="stopwatch_time_textview_width">33.5dip</dimen>
+    <dimen name="digitalclock_timeview_ampm_textview_margin_bottom">9.0dip</dimen>
+    <dimen name="dualclock_timeview_ampm_textview_margin_bottom">6.5dip</dimen>
+</resources>

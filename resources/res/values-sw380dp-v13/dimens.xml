@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="digitalclock_timeview_ampm_textview_margin_bottom">10dp</dimen>
+</resources>

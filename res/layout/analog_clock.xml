@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/analog_clock" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/analog_clock_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <AnalogClock android:id="@id/analog_clock_normal_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:dial="@drawable/analogclock_bg_normal" android:hand_hour="@drawable/analogclock_hour_normal" android:hand_minute="@drawable/analogclock_min_normal" />
+        <AnalogClock android:id="@id/analog_clock_white_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:dial="@drawable/analogclock_bg_white" android:hand_hour="@drawable/analogclock_hour_white" android:hand_minute="@drawable/analogclock_min_white" />
+    </LinearLayout>
+    <TextClock android:textAppearance="@style/AnalogClock.TextAppearance.DateView.Light" android:layout_gravity="bottom|center" android:id="@id/analog_clock_full_date_view" android:visibility="gone" style="@style/AnalogDateViewStyle" />
+    <TextClock android:textAppearance="@style/AnalogClock.TextAppearance.DateView.Dark" android:layout_gravity="bottom|center" android:id="@id/analog_clock_full_date_view_white_wallpaper" android:visibility="gone" style="@style/AnalogDateViewStyle" />
+</FrameLayout>

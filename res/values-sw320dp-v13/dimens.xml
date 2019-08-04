@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_setting_preview_margin_bottom">11.0dip</dimen>
+    <dimen name="widget_setting_preview_margin_start">27.0dip</dimen>
+    <dimen name="widget_setting_preview_margin_top">11.0dip</dimen>
+    <dimen name="widget_setting_label_text_size">12.5sp</dimen>
+    <dimen name="widget_setting_seek_bar_current_text_size">17.0sp</dimen>
+    <dimen name="widget_setting_seek_bar_height">28.0dip</dimen>
+    <dimen name="widget_setting_seek_bar_progress_margin_start">9.0dip</dimen>
+</resources>

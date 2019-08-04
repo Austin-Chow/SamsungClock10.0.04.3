@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_fab_add_mtrl" android:id="@id/menu_alarm_add" android:title="@string/add_voice" android:showAsAction="always" />
+    <item android:icon="@drawable/menu_delete_icon" android:id="@id/mitem_delete_action_mode" android:title="@string/delete" android:showAsAction="always" />
+</menu>

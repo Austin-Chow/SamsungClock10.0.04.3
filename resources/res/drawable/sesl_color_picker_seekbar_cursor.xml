@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/sesl_color_picker_seekbar_cursor_inner_radius" android:thickness="@dimen/sesl_color_picker_seekbar_cursor_out_stroke_size">
+    <size android:height="12dp" android:width="12dp"/>
+    <solid android:color="@color/sesl_color_picker_cursor_stroke_color"/>
+</shape>

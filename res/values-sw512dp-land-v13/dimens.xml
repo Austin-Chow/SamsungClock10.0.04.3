@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="alarm_timepicker_bottom_margin_weight">1.0</item>
+    <item type="dimen" name="alarm_timepicker_top_margin_weight">1.0</item>
+    <item type="dimen" name="alarm_timepicker_weight">10.0</item>
+    <dimen name="timer_common_highcontrastkeyboard_layout_height">54.0dip</dimen>
+    <dimen name="timer_common_keypad_layout_height">54.0dip</dimen>
+</resources>

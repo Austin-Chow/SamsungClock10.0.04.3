@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stopwatch_common_timeview_layout_expand_height">211.0dip</dimen>
+    <dimen name="stopwatch_laptime_margin_top">12.0dip</dimen>
+    <dimen name="digitalclock_timeview_ampm_textview_margin_bottom">5.0dip</dimen>
+</resources>

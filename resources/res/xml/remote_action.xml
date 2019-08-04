@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remote-actions xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" version="1" swift_action="true" enable_key="BF129611">
+    <action id="start_lap" label="@string/start_lap" priority="1" trigger_key="CTRL_LEFT+SHIFT_LEFT+N">
+        <disable-condition feature="SEC_FLOATING_FEATURE_COMMON_SUPPORT_BLE_SPEN" value="false"/>
+    </action>
+</remote-actions>

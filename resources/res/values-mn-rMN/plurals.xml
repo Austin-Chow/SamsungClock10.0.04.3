@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Сэрүүлэг %d өдөрт</item>
+        <item>N/A</item>
+        <item>Сэрүүлэг %d өдөрт</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Сэрүүлэг %d цагт</item>
+        <item>N/A</item>
+        <item>Сэрүүлэг %d цагт</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Сэрүүлэг %d минутад</item>
+        <item>N/A</item>
+        <item>Сэрүүлэг %d минутад</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>%d минутын дотор</item>
+        <item>N/A</item>
+        <item>%d минутын дотор</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

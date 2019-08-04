@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Alarmă peste %d zile</item>
+        <item>N/A</item>
+        <item>Alarmă peste %d zi</item>
+        <item>N/A</item>
+        <item>Alarmă peste %d zile</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Alarmă peste %d ore</item>
+        <item>N/A</item>
+        <item>Alarmă peste %d oră</item>
+        <item>N/A</item>
+        <item>Alarmă peste %d ore</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Alarmă peste %d minute</item>
+        <item>N/A</item>
+        <item>Alarmă peste %d minut</item>
+        <item>N/A</item>
+        <item>Alarmă peste %d minute</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>Peste %d minute</item>
+        <item>N/A</item>
+        <item>Peste %d minut</item>
+        <item>N/A</item>
+        <item>Peste %d minute</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

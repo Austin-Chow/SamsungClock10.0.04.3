@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/widget_setting_activity" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/widget_setting_action_bar" layout="@layout/widget_setting_action_bar"/>
+    <android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.constraint.Guideline android:orientation="vertical" android:id="@+id/start_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.1875"/>
+        <android.support.constraint.Guideline android:orientation="vertical" android:id="@+id/end_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.8125"/>
+        <FrameLayout android:id="@+id/widget_preview" android:descendantFocusability="blocksDescendants" android:layout_width="0dp" android:layout_height="@dimen/widget_setting_preview_height" android:importantForAccessibility="noHideDescendants" android:layout_marginVertical="@dimen/widget_setting_preview_margin_top" app:layout_constraintEnd_toEndOf="@+id/end_guide" app:layout_constraintStart_toStartOf="@+id/start_guide"/>
+        <include android:id="@+id/widget_bottom_layout" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="@+id/end_guide" app:layout_constraintStart_toStartOf="@+id/start_guide" app:layout_constraintTop_toBottomOf="@+id/widget_preview" app:layout_constraintVertical_bias="0" layout="@layout/widget_setting_bottom_layout"/>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

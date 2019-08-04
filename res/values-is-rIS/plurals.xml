@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">Vekjari hringir eftir %d daga</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vekjari hringir eftir %d dag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">Vekjari hringir eftir %d klukkustundir</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vekjari hringir eftir %d klukkustund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">Vekjari hringir eftir %d mínútur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vekjari hringir eftir %d mínútu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">Eftir %d mínútur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eftir %d mínútu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

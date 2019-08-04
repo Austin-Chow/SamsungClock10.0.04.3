@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="timer_common_highcontrastkeyboard_layout_height">96.0dip</dimen>
+    <dimen name="timer_common_keypad_layout_height">96.0dip</dimen>
+    <dimen name="stopwatch_common_timeview_layout_expand_height">269.0dip</dimen>
+    <dimen name="stopwatch_laptime_margin_top">15.0dip</dimen>
+    <dimen name="alarm_appbar_sub_title_paddingBottom">12.0dip</dimen>
+    <item type="dimen" name="alarm_snooze_btn_weight">0.5</item>
+    <item type="dimen" name="alarm_weather_cplogo_weight">0.5</item>
+    <item type="dimen" name="full_alert_top_layout_height_percent_tablet">0.43</item>
+    <item type="dimen" name="full_alert_top_layout_width_percent_tablet">0.64</item>
+</resources>

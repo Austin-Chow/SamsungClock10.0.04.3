@@ -1,0 +1,3229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="drawableSize">24dp</item>
+        <item name="gapBetweenBars">3dp</item>
+        <item name="barLength">18dp</item>
+    </style>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge">
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined">
+    </style>
+    <style name="ActionModeBottomBarStyle">
+        <item name="itemIconTint">@color/bottom_bar_item_icon_color</item>
+        <item name="itemTextColor">@color/bottom_bar_item_text_color</item>
+    </style>
+    <style name="BottomBarStyle">
+        <item name="android:background">@drawable/alarm_edit_app_bar_bg</item>
+        <item name="android:elevation">@dimen/clock_tab_divider_height</item>
+        <item name="itemTextColor">@color/alarm_cancel_done_text</item>
+    </style>
+    <style name="ClockActionBarTheme">
+        <item name="actionModeCloseButtonStyle">@style/ClockCloseButtonStyle</item>
+    </style>
+    <style name="ClockActionModeStyle">
+        <item name="android:background">@drawable/actionbar_bg_divider</item>
+    </style>
+    <style name="ClockCloseButtonStyle">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="ClockCollapsingToolbarLayoutStyle">
+    </style>
+    <style name="ClockDesignCollapsingToolbarSubtitle">
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="ClockDesignCollapsingToolbarTitle">
+        <item name="android:textSize">@dimen/alarm_appbar_title_text_size</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:lineSpacingExtra">@dimen/alarm_appbar_title_text_line_spacing</item>
+        <item name="?0x10104dd">2</item>
+        <item name="fontFamily">sans-serif-light</item>
+    </style>
+    <style name="ClockNoActionBarStyle">
+    </style>
+    <style name="ClockTabLayout">
+        <item name="tabIndicatorColor">@color/tab_indicator_color</item>
+        <item name="tabMode">@null</item>
+        <item name="tabGravity">1</item>
+        <item name="tabTextAppearance">@style/ClockTabLayoutTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/tab_select_text_color</item>
+    </style>
+    <style name="ClockThemeAppCompat">
+    </style>
+    <style name="ClockToolbarBackgroundStyle">
+    </style>
+    <style name="ClockTtablayoutheme">
+    </style>
+    <style name="DefaultThemeTWDatePicker">
+    </style>
+    <style name="EditTextSamsungStyle">
+    </style>
+    <style name="MyCustomThemeForDialog">
+        <item name="android:colorBackground">@color/window_content_area_color</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_bg_color</item>
+        <item name="android:colorEdgeEffect">@color/primary</item>
+        <item name="?0x101056c">@bool/light_navigation_bar_icon_color</item>
+    </style>
+    <style name="MyCustomThemeTWDatePicker">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.PickerDialog.DatePicker">
+    </style>
+    <style name="Theme.AppCompat.DayNight.PickerDialog.TimePicker">
+    </style>
+    <style name="WeatherUnitPopup">
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="WorldclockCollapsingToolbarSubtitle">
+    </style>
+    <style name="WorldclockCollapsingToolbarTitle">
+    </style>
+    <style name="AlarmListText.Date">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">#fffafafa</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse">
+        <item name="android:textColor">?android:attr/textColorTertiaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog">
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+        <item name="windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog.MinWidth">
+        <item name="android:windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+        <item name="windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+        <item name="windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.MinWidth">
+        <item name="android:windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+        <item name="windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+        <item name="windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+    </style>
+    <style name="Platform.AppCompat">
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:colorBackground">@color/sesl_background_color_dark</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:disabledAlpha">@dimen/sesl_disabled_color_alpha</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
+        <item name="android:textColorPrimary">@color/sesl_primary_text_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textColorSecondary">@color/sesl_secondary_text_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/sesl_primary_text_light</item>
+        <item name="android:textColorSecondaryInverse">@color/sesl_secondary_text_light</item>
+        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_light</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance.AppCompat.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@style/TextAppearance.AppCompat.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@style/TextAppearance.AppCompat.Small.Inverse</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorHighlight">@color/sesl_highlighted_text_color_light</item>
+        <item name="android:textColorHint">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:textColorLink">?attr/colorAccent</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
+        <item name="android:textColorTertiary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_light</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/sesl_list_choice_btn_radio</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/sesl_list_choice_btn_check</item>
+        <item name="android:colorBackgroundCacheHint">@color/sesl_background_cache_hint_selector_light</item>
+        <item name="android:textSelectHandleLeft">@drawable/sesl_text_select_handle_left_light</item>
+        <item name="android:textSelectHandleRight">@drawable/sesl_text_select_handle_right_light</item>
+        <item name="android:textSelectHandle">@drawable/sesl_text_select_handle_middle_light</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/sesl_status_bar_color_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="seslDialogDivderColor">@color/sesl_dialog_divider_color_material_dark</item>
+    </style>
+    <style name="Platform.AppCompat.Light">
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:colorBackground">@color/sesl_background_color_light</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:disabledAlpha">@dimen/sesl_disabled_color_alpha</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
+        <item name="android:textColorPrimary">@color/sesl_primary_text_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_light</item>
+        <item name="android:textColorSecondary">@color/sesl_secondary_text_light</item>
+        <item name="android:textColorPrimaryInverse">@color/sesl_primary_text_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/sesl_secondary_text_dark</item>
+        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance.AppCompat.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@style/TextAppearance.AppCompat.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@style/TextAppearance.AppCompat.Small.Inverse</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorHighlight">@color/sesl_highlighted_text_color_light</item>
+        <item name="android:textColorHint">@color/abc_hint_foreground_material_light</item>
+        <item name="android:textColorLink">?attr/colorAccent</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
+        <item name="android:textColorTertiary">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_dark</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/sesl_list_choice_btn_radio</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/sesl_list_choice_btn_check</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:colorBackgroundCacheHint">@color/sesl_background_cache_hint_selector_light</item>
+        <item name="android:textSelectHandleLeft">@drawable/sesl_text_select_handle_left_light</item>
+        <item name="android:textSelectHandleRight">@drawable/sesl_text_select_handle_right_light</item>
+        <item name="android:textSelectHandle">@drawable/sesl_text_select_handle_middle_light</item>
+        <item name="android:statusBarColor">@color/sesl_status_bar_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="seslDialogDivderColor">@color/sesl_dialog_divider_color_material_light</item>
+    </style>
+    <style name="Platform.Widget.AppCompat.Spinner">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/sesl_button_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Tooltip">
+    </style>
+    <style name="PreferenceFragment">
+        <item name="android:divider">?android:attr/listDivider</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+    <style name="PreferenceFragmentList">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem">
+        <item name="android:layout_gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon">
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem">
+        <item name="android:paddingRight">16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup">
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown">
+        <item name="android:paddingLeft">@dimen/abc_dropdownitem_text_padding_left</item>
+        <item name="android:paddingRight">4dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2">
+        <item name="android:layout_toLeftOf">@id/edit_query</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text">
+        <item name="android:layout_toLeftOf">@android:id/icon2</item>
+        <item name="android:layout_toRightOf">@android:id/icon1</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon">
+        <item name="android:layout_marginLeft">@dimen/abc_dropdownitem_text_padding_left</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:paddingLeft">@dimen/abc_action_bar_overflow_padding_start_material</item>
+        <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.Widget.Design.AppBarLayout">
+        <item name="android:stateListAnimator">@animator/sesl_appbar_state_list_animator</item>
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Dark">
+        <item name="colorPrimary">@color/sesl_primary_color_dark</item>
+        <item name="colorPrimaryDark">@color/sesl_primary_dark_color_dark</item>
+        <item name="colorControlActivated">@color/sesl_control_activated_color</item>
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Light">
+        <item name="colorPrimary">@color/sesl_primary_color_light</item>
+        <item name="colorPrimaryDark">@color/sesl_primary_dark_color_light</item>
+        <item name="colorControlActivated">@color/sesl_control_activated_color</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/sesl_btn_colored_borderless_text</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Inverse</item>
+        <item name="android:background">@drawable/sesl_btn_colored</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator">
+        <item name="android:maxHeight">36dp</item>
+        <item name="android:indeterminateDrawable">@drawable/abc_ratingbar_indicator_material</item>
+        <item name="android:progressDrawable">@drawable/abc_ratingbar_indicator_material</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="android:maxHeight">16dp</item>
+        <item name="android:indeterminateDrawable">@drawable/abc_ratingbar_small_material</item>
+        <item name="android:progressDrawable">@drawable/abc_ratingbar_small_material</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    <style name="CardView">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+        <item name="android:textColor">@color/abc_btn_colored_borderless_text_material</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Colored">
+        <item name="android:textColor">@color/abc_btn_colored_text_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar">
+    </style>
+    <style name="AboutClockTheme">
+        <item name="android:windowBackground">@color/about_clock_bg_color</item>
+        <item name="android:statusBarColor">@color/about_clock_bg_color</item>
+        <item name="android:navigationBarColor">@color/about_clock_navigation_bar_bg_color</item>
+        <item name="?0x101056c">@bool/light_navigation_bar_icon_color</item>
+    </style>
+    <style name="AddCityTextStyle">
+        <item name="android:textSize">@dimen/widget_no_item_textsize</item>
+        <item name="android:textColor">@color/widget_no_item_wbg</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:text">@string/tab_to_add</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="AlarmListText">
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="AlarmListText.Days">
+        <item name="android:textSize">@dimen/alarm_list_alert_day_text_size</item>
+        <item name="android:textColor">@color/alarm_list_repeat_unselect_on</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="AlarmListText.Time_AMPM">
+        <item name="android:textSize">@dimen/alarm_list_item_ampm_text_size</item>
+        <item name="android:textColor">@color/alarm_list_time_name_color_on</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="AlarmSoundCheckBox">
+        <item name="android:textSize">@dimen/alarm_customCheckBox_text_size</item>
+        <item name="android:gravity">left|center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:drawableStart">?android:attr/listChoiceIndicatorSingle</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+        <item name="android:paddingStart">16dp</item>
+    </style>
+    <style name="AlarmSoundDescription">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingEnd">?android:attr/listPreferredItemPaddingEnd</item>
+    </style>
+    <style name="AlarmSoundHeaderLine">
+        <item name="android:background">@drawable/list_subheader_divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layerType">software</item>
+        <item name="?0x101053b">@dimen/sesl_list_divider_inset</item>
+    </style>
+    <style name="AlarmSoundLine">
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">40dp</item>
+    </style>
+    <style name="AlarmSoundList">
+        <item name="android:paddingStart">45dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+    </style>
+    <style name="AlarmSoundMainText">
+        <item name="android:layout_marginStart">0dp</item>
+    </style>
+    <style name="AlarmSoundRadio">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableStart">?android:attr/listChoiceIndicatorSingle</item>
+        <item name="android:layout_marginStart">18dp</item>
+        <item name="android:layout_marginEnd">18dp</item>
+    </style>
+    <style name="AlarmSoundRadioTitle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">0dp</item>
+    </style>
+    <style name="AlarmSoundSubText">
+        <item name="android:maxLines">3</item>
+        <item name="android:paddingEnd">?android:attr/listPreferredItemPaddingEnd</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+    </style>
+    <style name="AlarmThemeTimePicker">
+        <item name="android:colorPrimary">@color/timepicker_text_color</item>
+        <item name="android:colorPrimaryDark">@color/timepicker_text_color</item>
+    </style>
+    <style name="AlarmWidgetActivityTheme">
+        <item name="android:actionBarStyle">@style/ClockActionBarStyle</item>
+        <item name="android:actionModeStyle">@style/ClockActionModeStyle</item>
+    </style>
+    <style name="AlarmWidget_AlarmName_mini">
+        <item name="android:textSize">@dimen/alarm_widget_name_text_size</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">-2dp</item>
+        <item name="android:text">@string/alarm</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="AlarmWidget_Time_AMPM">
+        <item name="android:textSize">@dimen/alarm_widget_ampm_text_size</item>
+        <item name="android:typeface">@null</item>
+        <item name="android:textColor">#f5f5f5</item>
+        <item name="android:layout_gravity">top|center_vertical</item>
+        <item name="android:paddingBottom">@dimen/alarm_widget_ampm_margin_bottom</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+        <item name="android:layout_marginStart">@dimen/alarm_widget_ampm_margin_start</item>
+        <item name="android:layout_marginEnd">0dp</item>
+    </style>
+    <style name="AlarmWidget_Time_AMPM_Kor">
+        <item name="android:textSize">@dimen/alarm_widget_ampm_ko_text_size</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">@dimen/alarm_widget_ampm_ko_margin_end</item>
+    </style>
+    <style name="AlarmWidget_Time_AMPM_Kor_full">
+        <item name="android:textSize">@dimen/alarm_widget_full_ampm_ko_text_size</item>
+    </style>
+    <style name="AlarmWidget_Time_AMPM_full">
+        <item name="android:textSize">@dimen/alarm_widget_full_ampm_text_size</item>
+        <item name="android:paddingBottom">@dimen/alarm_widget_ampm_full_margin_bottom</item>
+    </style>
+    <style name="AlarmWidget_Time_full">
+        <item name="android:textSize">@dimen/alarm_widget_full_time_text_size</item>
+    </style>
+    <style name="AlarmWidget_Time_mini">
+        <item name="android:textSize">@dimen/alarm_widget_time_text_size</item>
+        <item name="android:typeface">@null</item>
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="AlertActivityTheme">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/full_alert_indicator_color</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AlertDialog.AppCompat">
+    </style>
+    <style name="AlertDialog.AppCompat.Light">
+    </style>
+    <style name="AmPmTextStyle">
+        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:gravity">top|center_vertical</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="AmPmTextStyleLandScape">
+        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="AnalogClock.TextAppearance">
+    </style>
+    <style name="AnalogClock.TextAppearance.DateView">
+        <item name="android:textSize">@dimen/analogclock_widget_date_view_text_size</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="AnalogClock.TextAppearance.DateView.Dark">
+        <item name="android:textColor">@color/analogclock_text_color_dark</item>
+    </style>
+    <style name="AnalogClock.TextAppearance.DateView.Light">
+        <item name="android:textColor">@color/analogclock_text_color_light</item>
+        <item name="android:shadowColor">@color/analogclock_shadow_color_black</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <style name="AnalogDateViewStyle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:paddingStart">@dimen/clockwidget_common_date_textView_padding_start_end</item>
+        <item name="android:paddingEnd">@dimen/clockwidget_common_date_textView_padding_start_end</item>
+        <item name="android:format12Hour">@string/widget_default_date_format</item>
+        <item name="android:format24Hour">@string/widget_default_date_format</item>
+    </style>
+    <style name="Animation.AppCompat.Dialog">
+    </style>
+    <style name="Animation.AppCompat.DropDownUp">
+    </style>
+    <style name="Animation.AppCompat.Tooltip">
+    </style>
+    <style name="Animation.Design.BottomSheetDialog">
+        <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
+    </style>
+    <style name="AppPreferenceTheme">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+    <style name="Base.AlertDialog.AppCompat">
+        <item name="android:layout">@layout/sesl_alert_dialog</item>
+        <item name="listLayout">@layout/sesl_select_dialog</item>
+        <item name="multiChoiceItemLayout">@layout/sesl_select_dialog_multichoice</item>
+        <item name="singleChoiceItemLayout">@layout/sesl_select_dialog_singlechoice</item>
+        <item name="listItemLayout">@layout/sesl_select_dialog_item</item>
+        <item name="progressLayout">@layout/sesl_progress_dialog</item>
+        <item name="horizontalProgressLayout">@layout/sesl_alert_dialog_progress</item>
+    </style>
+    <style name="Base.AlertDialog.AppCompat.Light">
+    </style>
+    <style name="Base.Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/sesl_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/sesl_dialog_exit</item>
+    </style>
+    <style name="Base.Animation.AppCompat.DropDownUp">
+        <item name="android:windowEnterAnimation">@anim/sesl_grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/sesl_shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="Base.Animation.AppCompat.ListPopup">
+        <item name="android:windowEnterAnimation">@anim/sesl_list_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/sesl_list_popup_exit</item>
+    </style>
+    <style name="Base.Animation.AppCompat.MenuPopup">
+        <item name="android:windowEnterAnimation">@anim/sesl_menu_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/sesl_menu_popup_exit</item>
+    </style>
+    <style name="Base.Animation.AppCompat.Tooltip">
+        <item name="android:windowEnterAnimation">@anim/sesl_tooltip_enter</item>
+        <item name="android:windowExitAnimation">@anim/sesl_tooltip_exit</item>
+    </style>
+    <style name="Base.CardView">
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="Base.DialogWindowTitle.AppCompat">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.DialogWindowTitle</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="Base.DialogWindowTitle.AppCompat.Light">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Light.DialogWindowTitle</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="Base.DialogWindowTitleBackground.AppCompat">
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">?attr/dialogPreferredPadding</item>
+        <item name="android:paddingTop">@dimen/sesl_dialog_padding_top</item>
+        <item name="android:paddingRight">?attr/dialogPreferredPadding</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/sesl_text_size_body_1</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlight</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+        <item name="android:textColorLink">?android:attr/textColorLink</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/abc_text_size_body_1_material</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">@dimen/abc_text_size_body_2_material</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/abc_text_size_caption_material</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Dialog">
+        <item name="android:textSize">@dimen/sesl_dialog_body_text_size</item>
+        <item name="android:textColor">@color/sesl_dialog_body_text_color_dark</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Dialog.List">
+        <item name="android:textSize">@dimen/sesl_select_dialog_list_item_text_size</item>
+        <item name="android:textColor">@color/sesl_select_dialog_list_item_text_dark</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Dialog.List.Secondary">
+        <item name="android:textSize">@dimen/sesl_select_dialog_list_item_text_size_secondary</item>
+        <item name="android:textColor">@color/sesl_dialog_sub_text_color_material_dark</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.DialogWindowTitle">
+        <item name="android:textSize">@dimen/sesl_dialog_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sesl_dialog_title_text_color_dark</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display1">
+        <item name="android:textSize">@dimen/sesl_text_size_display_1</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display2">
+        <item name="android:textSize">@dimen/sesl_text_size_display_2</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display3">
+        <item name="android:textSize">@dimen/sesl_text_size_display_3</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display4">
+        <item name="android:textSize">@dimen/sesl_text_size_display_4</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">@dimen/sesl_text_size_headline</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large">
+        <item name="android:textSize">@dimen/sesl_text_size_large</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Dialog">
+        <item name="android:textSize">@dimen/sesl_dialog_body_text_size</item>
+        <item name="android:textColor">@color/sesl_dialog_body_text_color_light</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Dialog.List">
+        <item name="android:textSize">@dimen/sesl_select_dialog_list_item_text_size</item>
+        <item name="android:textColor">@color/sesl_select_dialog_list_item_text</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Dialog.List.Secondary">
+        <item name="android:textSize">@dimen/sesl_select_dialog_list_item_text_size_secondary</item>
+        <item name="android:textColor">@color/sesl_dialog_sub_text_color_material_light</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.DialogWindowTitle">
+        <item name="android:textSize">@dimen/sesl_dialog_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sesl_dialog_title_text_color_light</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.ActionBar.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Header">
+        <item name="android:textColor">@color/sesl_context_menu_title_text_color</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+        <item name="android:textColor">@color/sesl_popup_menu_item_text_light</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
+        <item name="android:textColor">@color/sesl_popup_menu_item_text_light</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/sesl_spinner_item_text_light</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@dimen/sesl_text_size_medium</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">@dimen/sesl_text_size_menu</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle">
+        <item name="android:textSize">@dimen/sesl_search_result_subtitle_text_size</item>
+        <item name="android:textColor">@color/sesl_search_result_subtitle_text_color</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Title">
+        <item name="android:textSize">@dimen/sesl_search_result_title_text_size</item>
+        <item name="android:textColor">@color/sesl_search_result_title_text_color</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small">
+        <item name="android:textSize">@dimen/sesl_text_size_small</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">@dimen/sesl_text_size_subhead</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/sesl_text_size_title</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Tooltip">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">@dimen/sesl_action_bar_text_size_menu</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">@dimen/sesl_action_bar_text_size_subtitle</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textColor">@color/sesl_action_bar_text_color_subtitle_dark</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse">
+        <item name="android:textColor">@color/sesl_action_bar_text_color_subtitle_light</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/sesl_action_bar_text_size_title</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textColor">@color/sesl_action_bar_text_color_title_dark</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textColor">@color/sesl_action_bar_text_color_title_light</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button">
+        <item name="android:textSize">@dimen/sesl_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sesl_btn_text_color_dark</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem">
+        <item name="android:textSize">@dimen/sesl_popup_menu_item_text_size</item>
+        <item name="android:textColor">?attr/spinnerDropdownTextColor</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Light.Button">
+        <item name="android:textSize">@dimen/sesl_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sesl_btn_text_color_light</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Header">
+        <item name="android:textSize">@dimen/sesl_context_menu_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sesl_context_menu_title_text_color_dark</item>
+        <item name="fontFamily">@string/sesl_font_family_condensed</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large">
+        <item name="android:textSize">@dimen/sesl_popup_menu_item_text_size</item>
+        <item name="android:textColor">@color/sesl_popup_menu_item_text_dark</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small">
+        <item name="android:textSize">@dimen/sesl_popup_menu_item_text_size</item>
+        <item name="android:textColor">@color/sesl_popup_menu_item_text_dark</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Switch">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:textSize">@dimen/sesl_spinner_item_text_size</item>
+        <item name="android:textColor">@color/sesl_spinner_item_text</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle.Inverse">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title.Inverse">
+    </style>
+    <style name="Base.Theme.AppCompat.CompactMenu">
+        <item name="android:listViewStyle">@style/Widget.AppCompat.ListView.Menu</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.DropDownUp</item>
+        <item name="android:itemTextAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog.FixedSize">
+        <item name="windowFixedWidthMajor">@dimen/sesl_dialog_fixed_width_major</item>
+        <item name="windowFixedHeightMinor">@dimen/sesl_dialog_fixed_height_minor</item>
+        <item name="windowFixedWidthMinor">@dimen/sesl_dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/sesl_dialog_fixed_height_major</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="colorPrimary">@color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.FixedSize">
+        <item name="windowFixedWidthMajor">@dimen/sesl_dialog_fixed_width_major</item>
+        <item name="windowFixedHeightMinor">@dimen/sesl_dialog_fixed_height_minor</item>
+        <item name="windowFixedWidthMinor">@dimen/sesl_dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/sesl_dialog_fixed_height_major</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.PickerDialog">
+        <item name="android:datePickerStyle">@style/Widget.AppCompat.Light.DatePicker</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.PickerDialog.DatePicker">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.PickerDialog.TimePicker">
+    </style>
+    <style name="Base.Theme.AppCompat.PickerDialog">
+        <item name="android:datePickerStyle">@style/Widget.AppCompat.DatePicker</item>
+    </style>
+    <style name="Base.Theme.AppCompat.PickerDialog.DatePicker">
+    </style>
+    <style name="Base.Theme.AppCompat.PickerDialog.TimePicker">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.ActionBar">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:colorBackground">@color/sesl_background_color_dark</item>
+        <item name="android:textColorPrimary">@color/sesl_primary_text_dark</item>
+        <item name="android:textColorSecondary">@color/sesl_secondary_text_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/sesl_primary_text_light</item>
+        <item name="android:textColorSecondaryInverse">@color/sesl_secondary_text_light</item>
+        <item name="android:textColorHighlight">@color/sesl_highlighted_text_color_light</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="isLightTheme">false</item>
+        <item name="colorControlNormal">@color/sesl_control_normal_color_light</item>
+        <item name="colorControlHighlight">@color/sesl_ripple_color_dark</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light">
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:colorBackground">@color/sesl_background_color_light</item>
+        <item name="android:textColorPrimary">@color/sesl_primary_text_light</item>
+        <item name="android:textColorSecondary">@color/sesl_secondary_text_light</item>
+        <item name="android:textColorPrimaryInverse">@color/sesl_primary_text_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/sesl_secondary_text_dark</item>
+        <item name="android:textColorHighlight">@color/sesl_highlighted_text_color_light</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="isLightTheme">true</item>
+        <item name="colorControlNormal">@color/sesl_control_normal_color_light</item>
+        <item name="colorControlHighlight">@color/sesl_ripple_color_light</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light.Dialog">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+        <item name="windowMinWidthMajor">@dimen/sesl_dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/sesl_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.V14.Widget.Design.AppBarLayout">
+    </style>
+    <style name="Base.V7.Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/sesl_primary_text_dark</item>
+        <item name="android:textColorSecondary">@color/sesl_secondary_text_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/sesl_primary_text_light</item>
+        <item name="android:textColorSecondaryInverse">@color/sesl_secondary_text_light</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:panelBackground">?android:attr/colorBackground</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/sesl_scrollbar_handle_dark</item>
+        <item name="android:scrollbarThumbVertical">@drawable/sesl_scrollbar_handle_dark</item>
+        <item name="android:absListViewStyle">@android:style/Widget.AbsListView</item>
+        <item name="android:progressBarStyle">@style/Widget.AppCompat.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.AppCompat.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@style/Widget.AppCompat.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@style/Widget.AppCompat.ProgressBar.Large</item>
+        <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item name="android:spinnerItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.AppCompat.TextView.ListSeparator</item>
+        <item name="android:progressBarStyleSmallTitle">@style/Widget.AppCompat.ProgressBar.Small.Title</item>
+        <item name="android:listDivider">@drawable/sesl_list_divider_dark</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/sesl_list_choice_btn_radio</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/sesl_list_choice_btn_check</item>
+        <item name="android:progressBarStyleInverse">@style/Widget.AppCompat.ProgressBar.Inverse</item>
+        <item name="android:progressBarStyleSmallInverse">@style/Widget.AppCompat.ProgressBar.Small.Inverse</item>
+        <item name="android:progressBarStyleLargeInverse">@style/Widget.AppCompat.ProgressBar.Large.Inverse</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/sesl_fastscroll_thumb</item>
+        <item name="android:fastScrollPreviewBackgroundLeft">@drawable/sesl_fastscroll_label_left</item>
+        <item name="android:fastScrollPreviewBackgroundRight">@drawable/sesl_fastscroll_label_right</item>
+        <item name="android:fastScrollTrackDrawable">@drawable/sesl_fastscroll_track</item>
+        <item name="android:fastScrollOverlayPosition">aboveThumb</item>
+        <item name="android:fastScrollTextColor">@color/sesl_fasts_scroll_preview_text_color_light</item>
+        <item name="android:datePickerStyle">@style/Widget.AppCompat.DatePicker</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/sesl_list_item_padding_horizontal</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/sesl_list_item_padding_horizontal</item>
+        <item name="android:fastScrollStyle">@style/Widget.AppCompat.FastScroll</item>
+        <item name="android:colorEdgeEffect">?attr/colorPrimary</item>
+        <item name="drawerArrowStyle">@style/Widget.AppCompat.DrawerArrowToggle</item>
+        <item name="isLightTheme">false</item>
+        <item name="dragBlockImage">@drawable/sesl_pen_block_selection</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="windowActionModeOverlay">false</item>
+        <item name="windowFixedWidthMajor">@null</item>
+        <item name="windowFixedHeightMinor">@null</item>
+        <item name="windowFixedWidthMinor">@null</item>
+        <item name="windowFixedHeightMajor">@null</item>
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.ActionBar.TabText</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="actionOverflowMenuStyle">@style/Widget.AppCompat.PopupMenu.Overflow</item>
+        <item name="actionBarPopupTheme">@null</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.ActionBar</item>
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionBarTheme">@null</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">@dimen/sesl_action_bar_default_height</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="actionBarItemBackground">@drawable/sesl_action_bar_item_background_dark</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">@color/sesl_action_menu_text_dark</item>
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+        <item name="actionModeBackground">@drawable/sesl_action_bar_background_dark</item>
+        <item name="actionModeSplitBackground">?android:attr/colorPrimaryDark</item>
+        <item name="actionModeCloseDrawable">@drawable/sesl_ic_cab_done_dark</item>
+        <item name="actionModeCutDrawable">@drawable/sesl_ic_menu_cut_dark</item>
+        <item name="actionModeCopyDrawable">@drawable/sesl_ic_menu_copy_dark</item>
+        <item name="actionModePasteDrawable">@drawable/sesl_ic_menu_paste_dark</item>
+        <item name="actionModeSelectAllDrawable">@drawable/sesl_ic_menu_selectall_dark</item>
+        <item name="actionModeShareDrawable">@drawable/sesl_ic_menu_share_dark</item>
+        <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
+        <item name="textAppearancePopupMenuHeader">@style/TextAppearance.AppCompat.Widget.PopupMenu.Header</item>
+        <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
+        <item name="dialogPreferredPadding">@dimen/sesl_dialog_padding</item>
+        <item name="listDividerAlertDialog">@null</item>
+        <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+        <item name="dropdownListPreferredItemHeight">@dimen/sesl_popup_menu_item_min_height</item>
+        <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item name="homeAsUpIndicator">@drawable/sesl_ic_ab_back_dark</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="buttonBarStyle">@style/Widget.AppCompat.ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="selectableItemBackgroundBorderless">?attr/selectableItemBackground</item>
+        <item name="borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
+        <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+        <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
+        <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
+        <item name="popupWindowStyle">@style/Widget.AppCompat.PopupWindow</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+        <item name="editTextBackground">@drawable/sesl_edit_text_background_dark</item>
+        <item name="imageButtonStyle">@style/Widget.AppCompat.ImageButton</item>
+        <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item name="textColorSearchUrl">@color/sesl_search_url_text</item>
+        <item name="searchViewStyle">@style/Widget.AppCompat.SearchView</item>
+        <item name="searchViewHintTextColor">@color/sesl_search_view_hint_text_color_dark</item>
+        <item name="searchViewTextColor">@color/sesl_search_view_text_color_dark</item>
+        <item name="searchViewIconColor">@color/sesl_search_view_icon_color_dark</item>
+        <item name="listPreferredItemHeight">@dimen/sesl_list_preferred_item_height</item>
+        <item name="listPreferredItemHeightSmall">@dimen/sesl_list_preferred_item_height_small</item>
+        <item name="listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemPaddingLeft">?android:attr/listPreferredItemPaddingStart</item>
+        <item name="listPreferredItemPaddingRight">?android:attr/listPreferredItemPaddingEnd</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
+        <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="roundedCornerColor">@color/sesl_round_and_bgcolor_dark</item>
+        <item name="roundedCornerStrokeColor">@color/sesl_round_stroke_dark</item>
+        <item name="listDividerColor">@color/sesl_list_divider_color_dark</item>
+        <item name="goToTopStyle">@drawable/sesl_list_go_to_top_dark</item>
+        <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
+        <item name="panelMenuListWidth">@dimen/sesl_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/sesl_list_selector_dark</item>
+        <item name="colorPrimary">@color/sesl_primary_color_dark</item>
+        <item name="colorPrimaryDark">@color/sesl_primary_dark_color_dark</item>
+        <item name="colorAccent">@color/accent_material_dark</item>
+        <item name="colorControlNormal">@color/sesl_control_normal_color_light</item>
+        <item name="colorControlActivated">@color/sesl_control_activated_color</item>
+        <item name="colorControlHighlight">@color/sesl_ripple_color_dark</item>
+        <item name="colorButtonNormal">@color/sesl_btn_default_color_dark</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
+        <item name="controlBackground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="colorBackgroundFloating">@color/sesl_background_floating_light</item>
+        <item name="alertDialogStyle">@style/AlertDialog.AppCompat</item>
+        <item name="alertDialogCenterButtons">false</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.AppCompat.Dialog.Alert</item>
+        <item name="textColorAlertDialogListItem">@color/sesl_select_dialog_list_item_text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
+        <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
+        <item name="checkboxStyle">@style/Widget.AppCompat.CompoundButton.CheckBox</item>
+        <item name="checkedTextViewStyle">@style/Widget.AppCompat.CheckedTextView</item>
+        <item name="editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="radioButtonStyle">@style/Widget.AppCompat.CompoundButton.RadioButton</item>
+        <item name="ratingBarStyle">@style/Widget.AppCompat.RatingBar</item>
+        <item name="ratingBarStyleIndicator">@style/Widget.AppCompat.RatingBar.Indicator</item>
+        <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
+        <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
+        <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
+        <item name="switchStyle">@style/Widget.AppCompat.CompoundButton.Switch</item>
+        <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
+        <item name="tooltipFrameBackground">@color/sesl_tooltip_background_dark</item>
+        <item name="tooltipForegroundColor">@color/sesl_tooltip_foreground_dark</item>
+        <item name="colorError">@color/sesl_error_color</item>
+        <item name="progressNormalColor">@color/sesl_progress_control_color_normal_dark</item>
+        <item name="progressActivatedColor">@color/sesl_progress_control_color_activated_dark</item>
+        <item name="spinnerDropdownTextColor">@color/sesl_spinner_dropdown_text_color_dark</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Dialog">
+        <item name="android:colorBackground">@color/sesl_dialog_window_background_color_material_dark</item>
+        <item name="android:backgroundDimAmount">0.8</item>
+        <item name="android:disabledAlpha">0.4</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Dialog</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
+        <item name="android:windowBackground">@drawable/sesl_dialog_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/sesl_dialog_scrollbar_handle_material_dark</item>
+        <item name="android:scrollbarThumbVertical">@drawable/sesl_dialog_scrollbar_handle_material_dark</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/sesl_config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/sesl_select_dialog_padding_start</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/sesl_select_dialog_padding_end</item>
+        <item name="android:windowElevation">@dimen/sesl_dialog_window_elevation</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="dialogPreferredPadding">@dimen/sesl_dialog_padding</item>
+        <item name="seslDialogDivderColor">@color/sesl_dialog_divider_color_material_dark</item>
+        <item name="buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item name="borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="listPreferredItemHeightSmall">@dimen/sesl_list_preferred_item_height_small</item>
+        <item name="listPreferredItemPaddingLeft">@dimen/sesl_select_dialog_padding_start</item>
+        <item name="listPreferredItemPaddingRight">@dimen/sesl_select_dialog_padding_end</item>
+        <item name="textAppearanceListItem">@style/Base.TextAppearance.AppCompat.Dialog.List</item>
+        <item name="textAppearanceListItemSecondary">@style/Base.TextAppearance.AppCompat.Dialog.List.Secondary</item>
+        <item name="textAppearanceListItemSmall">@style/Base.TextAppearance.AppCompat.Dialog.List</item>
+        <item name="colorPrimary">@color/sesl_primary_color_dark</item>
+        <item name="colorPrimaryDark">@color/sesl_primary_dark_color_dark</item>
+        <item name="colorControlHighlight">@color/sesl_ripple_color_dark</item>
+        <item name="textColorAlertDialogListItem">@color/sesl_select_dialog_list_item_text_dark</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AppCompat.Button.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.AppCompat.Button.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.AppCompat.Button.Dialog</item>
+        <item name="colorPickerSelectedItemTextColor">@color/sesl_color_picker_selected_color_item_text_color_dark</item>
+        <item name="colorPickerEmptySlotColor">@color/sesl_color_picker_used_color_item_empty_slot_color_dark</item>
+        <item name="colorPickerStrokeColor">@color/sesl_color_picker_stroke_color_dark</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/sesl_primary_text_light</item>
+        <item name="android:textColorSecondary">@color/sesl_secondary_text_light</item>
+        <item name="android:textColorPrimaryInverse">@color/sesl_primary_text_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/sesl_secondary_text_dark</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:panelBackground">?android:attr/colorBackground</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/sesl_scrollbar_handle_light</item>
+        <item name="android:scrollbarThumbVertical">@drawable/sesl_scrollbar_handle_light</item>
+        <item name="android:absListViewStyle">@android:style/Widget.AbsListView</item>
+        <item name="android:progressBarStyle">@style/Widget.AppCompat.Light.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.AppCompat.Light.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@style/Widget.AppCompat.Light.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@style/Widget.AppCompat.Light.ProgressBar.Large</item>
+        <item name="android:dropDownItemStyle">@style/Widget.AppCompat.Light.DropDownItem.Spinner</item>
+        <item name="android:spinnerItemStyle">@style/Widget.AppCompat.Light.TextView.SpinnerItem</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Light.Button</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.AppCompat.Light.TextView.ListSeparator</item>
+        <item name="android:progressBarStyleSmallTitle">@style/Widget.AppCompat.Light.ProgressBar.Small.Title</item>
+        <item name="android:listDivider">@drawable/sesl_list_divider_light</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/sesl_list_choice_btn_radio</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/sesl_list_choice_btn_check</item>
+        <item name="android:progressBarStyleInverse">@style/Widget.AppCompat.Light.ProgressBar.Inverse</item>
+        <item name="android:progressBarStyleSmallInverse">@style/Widget.AppCompat.Light.ProgressBar.Small.Inverse</item>
+        <item name="android:progressBarStyleLargeInverse">@style/Widget.AppCompat.Light.ProgressBar.Large.Inverse</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/sesl_fastscroll_thumb</item>
+        <item name="android:fastScrollPreviewBackgroundLeft">@drawable/sesl_fastscroll_label_left</item>
+        <item name="android:fastScrollPreviewBackgroundRight">@drawable/sesl_fastscroll_label_right</item>
+        <item name="android:fastScrollTrackDrawable">@drawable/sesl_fastscroll_track</item>
+        <item name="android:fastScrollOverlayPosition">aboveThumb</item>
+        <item name="android:fastScrollTextColor">@color/sesl_fasts_scroll_preview_text_color_light</item>
+        <item name="android:datePickerStyle">@style/Widget.AppCompat.Light.DatePicker</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/sesl_list_item_padding_horizontal</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/sesl_list_item_padding_horizontal</item>
+        <item name="android:fastScrollStyle">@style/Widget.AppCompat.Light.FastScroll</item>
+        <item name="android:colorEdgeEffect">?attr/colorPrimary</item>
+        <item name="drawerArrowStyle">@style/Widget.AppCompat.DrawerArrowToggle</item>
+        <item name="isLightTheme">true</item>
+        <item name="dragBlockImage">@drawable/sesl_pen_block_selection</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="windowActionModeOverlay">false</item>
+        <item name="windowFixedWidthMajor">@null</item>
+        <item name="windowFixedHeightMinor">@null</item>
+        <item name="windowFixedWidthMinor">@null</item>
+        <item name="windowFixedHeightMajor">@null</item>
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item name="actionOverflowMenuStyle">@style/Widget.AppCompat.Light.PopupMenu.Overflow</item>
+        <item name="actionBarPopupTheme">@null</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.Light.ActionBar</item>
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionBarTheme">@null</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">@dimen/sesl_action_bar_default_height</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="actionBarItemBackground">@drawable/sesl_action_bar_item_background</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu.Inverse</item>
+        <item name="actionMenuTextColor">@color/sesl_action_menu_text</item>
+        <item name="actionModeStyle">@style/Widget.AppCompat.Light.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.Light.ActionButton.CloseMode</item>
+        <item name="actionModeBackground">@drawable/sesl_action_bar_background</item>
+        <item name="actionModeSplitBackground">?attr/colorPrimaryDark</item>
+        <item name="actionModeCloseDrawable">@drawable/sesl_ic_cab_done</item>
+        <item name="actionModeCutDrawable">@drawable/sesl_ic_menu_cut</item>
+        <item name="actionModeCopyDrawable">@drawable/sesl_ic_menu_copy</item>
+        <item name="actionModePasteDrawable">@drawable/sesl_ic_menu_paste</item>
+        <item name="actionModeSelectAllDrawable">@drawable/sesl_ic_menu_selectall</item>
+        <item name="actionModeShareDrawable">@drawable/sesl_ic_menu_share</item>
+        <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
+        <item name="textAppearancePopupMenuHeader">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Header</item>
+        <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Light.Dialog</item>
+        <item name="dialogPreferredPadding">@dimen/sesl_dialog_padding</item>
+        <item name="listDividerAlertDialog">@null</item>
+        <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
+        <item name="dropdownListPreferredItemHeight">@dimen/sesl_popup_menu_item_min_height</item>
+        <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item name="homeAsUpIndicator">@drawable/sesl_ic_ab_back</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
+        <item name="buttonBarStyle">@style/Widget.AppCompat.Light.ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/Widget.AppCompat.Light.Button.ButtonBar.AlertDialog</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
+        <item name="selectableItemBackgroundBorderless">?attr/selectableItemBackground</item>
+        <item name="borderlessButtonStyle">@style/Widget.AppCompat.Light.Button.Borderless</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
+        <item name="toolbarStyle">@style/Widget.AppCompat.Light.Toolbar</item>
+        <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Light.Toolbar.Button.Navigation</item>
+        <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
+        <item name="popupWindowStyle">@style/Widget.AppCompat.Light.PopupWindow</item>
+        <item name="editTextColor">?android:attr/textColorPrimary</item>
+        <item name="editTextBackground">@drawable/sesl_edit_text_background_light</item>
+        <item name="imageButtonStyle">@style/Widget.AppCompat.ImageButton</item>
+        <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.Light.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle</item>
+        <item name="textColorSearchUrl">@color/sesl_search_url_text</item>
+        <item name="searchViewStyle">@style/Widget.AppCompat.Light.SearchView</item>
+        <item name="searchViewHintTextColor">@color/sesl_search_view_hint_text_color</item>
+        <item name="searchViewTextColor">@color/sesl_search_view_text_color</item>
+        <item name="searchViewIconColor">@color/sesl_search_view_icon_color</item>
+        <item name="listPreferredItemHeight">@dimen/sesl_list_preferred_item_height</item>
+        <item name="listPreferredItemHeightSmall">@dimen/sesl_list_preferred_item_height_small</item>
+        <item name="listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemPaddingLeft">?android:attr/listPreferredItemPaddingStart</item>
+        <item name="listPreferredItemPaddingRight">?android:attr/listPreferredItemPaddingEnd</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.Light.ListView.DropDown</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.Light.ListPopupWindow</item>
+        <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="roundedCornerColor">@color/sesl_round_and_bgcolor_light</item>
+        <item name="roundedCornerStrokeColor">@color/sesl_round_stroke_light</item>
+        <item name="listDividerColor">@color/sesl_list_divider_color_light</item>
+        <item name="goToTopStyle">@drawable/sesl_list_go_to_top_light</item>
+        <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
+        <item name="panelMenuListWidth">@dimen/sesl_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/sesl_list_selector_light</item>
+        <item name="colorPrimary">@color/sesl_primary_color_light</item>
+        <item name="colorPrimaryDark">@color/sesl_primary_dark_color_light</item>
+        <item name="colorAccent">@color/accent_material_light</item>
+        <item name="colorControlNormal">@color/sesl_control_normal_color_light</item>
+        <item name="colorControlActivated">@color/sesl_control_activated_color</item>
+        <item name="colorControlHighlight">@color/sesl_ripple_color_light</item>
+        <item name="colorButtonNormal">@color/sesl_btn_default_color_light</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
+        <item name="controlBackground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="colorBackgroundFloating">@color/sesl_background_floating_light</item>
+        <item name="alertDialogStyle">@style/AlertDialog.AppCompat.Light</item>
+        <item name="alertDialogCenterButtons">false</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.AppCompat.Light.Dialog.Alert</item>
+        <item name="textColorAlertDialogListItem">@color/sesl_select_dialog_list_item_text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.Light.AutoCompleteTextView</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Light.Button</item>
+        <item name="buttonStyleSmall">@style/Widget.AppCompat.Light.Button.Small</item>
+        <item name="checkboxStyle">@style/Widget.AppCompat.Light.CompoundButton.CheckBox</item>
+        <item name="checkedTextViewStyle">@style/Widget.AppCompat.Light.CheckedTextView</item>
+        <item name="editTextStyle">@style/Widget.AppCompat.Light.EditText</item>
+        <item name="radioButtonStyle">@style/Widget.AppCompat.Light.CompoundButton.RadioButton</item>
+        <item name="ratingBarStyle">@style/Widget.AppCompat.RatingBar</item>
+        <item name="ratingBarStyleIndicator">@style/Widget.AppCompat.RatingBar.Indicator</item>
+        <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
+        <item name="seekBarStyle">@style/Widget.AppCompat.Light.SeekBar</item>
+        <item name="spinnerStyle">@style/Widget.AppCompat.Light.Spinner</item>
+        <item name="switchStyle">@style/Widget.AppCompat.Light.CompoundButton.Switch</item>
+        <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
+        <item name="tooltipFrameBackground">@color/sesl_tooltip_background_light</item>
+        <item name="tooltipForegroundColor">@color/sesl_tooltip_foreground_light</item>
+        <item name="colorError">@color/sesl_error_color</item>
+        <item name="progressNormalColor">@color/sesl_progress_control_color_normal_light</item>
+        <item name="progressActivatedColor">@color/sesl_progress_control_color_activated_light</item>
+        <item name="spinnerDropdownTextColor">@color/sesl_spinner_dropdown_text_color_light</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:colorBackground">@color/sesl_dialog_window_background_color_material_light</item>
+        <item name="android:backgroundDimAmount">0.65</item>
+        <item name="android:disabledAlpha">0.4</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Light.Dialog</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
+        <item name="android:windowBackground">@drawable/sesl_dialog_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/RtlOverlay.DialogWindowTitle.AppCompat.Light</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/sesl_dialog_scrollbar_handle_material_light</item>
+        <item name="android:scrollbarThumbVertical">@drawable/sesl_dialog_scrollbar_handle_material_light</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/sesl_config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/sesl_select_dialog_padding_start</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/sesl_select_dialog_padding_end</item>
+        <item name="android:windowElevation">@dimen/sesl_dialog_window_elevation</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="dialogPreferredPadding">@dimen/sesl_dialog_padding</item>
+        <item name="seslDialogDivderColor">@color/sesl_dialog_divider_color_material_light</item>
+        <item name="buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item name="borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="listPreferredItemHeightSmall">@dimen/sesl_list_preferred_item_height_small</item>
+        <item name="listPreferredItemPaddingLeft">@dimen/sesl_select_dialog_padding_start</item>
+        <item name="listPreferredItemPaddingRight">@dimen/sesl_select_dialog_padding_end</item>
+        <item name="textAppearanceListItem">@style/Base.TextAppearance.AppCompat.Light.Dialog.List</item>
+        <item name="textAppearanceListItemSecondary">@style/Base.TextAppearance.AppCompat.Light.Dialog.List.Secondary</item>
+        <item name="textAppearanceListItemSmall">@style/Base.TextAppearance.AppCompat.Light.Dialog.List</item>
+        <item name="colorPrimary">@color/sesl_primary_color_light</item>
+        <item name="colorPrimaryDark">@color/sesl_primary_dark_color_light</item>
+        <item name="colorControlHighlight">@color/sesl_ripple_color_light</item>
+        <item name="textColorAlertDialogListItem">@color/sesl_select_dialog_list_item_text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="colorPickerSelectedItemTextColor">@color/sesl_color_picker_selected_color_item_text_color_light</item>
+        <item name="colorPickerEmptySlotColor">@color/sesl_color_picker_used_color_item_empty_slot_color_light</item>
+        <item name="colorPickerStrokeColor">@color/sesl_color_picker_stroke_color_light</item>
+    </style>
+    <style name="Base.V7.ThemeOverlay.AppCompat.Dialog">
+        <item name="android:colorBackground">@color/sesl_dialog_window_background_color_material_dark</item>
+        <item name="android:backgroundDimAmount">0.8</item>
+        <item name="android:disabledAlpha">0.4</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Dialog</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
+        <item name="android:windowBackground">@drawable/sesl_dialog_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/sesl_dialog_scrollbar_handle_material_dark</item>
+        <item name="android:scrollbarThumbVertical">@drawable/sesl_dialog_scrollbar_handle_material_dark</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/sesl_config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/sesl_select_dialog_padding_start</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/sesl_select_dialog_padding_end</item>
+        <item name="android:windowElevation">@dimen/sesl_dialog_window_elevation</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="dialogPreferredPadding">@dimen/sesl_dialog_padding</item>
+        <item name="seslDialogDivderColor">@color/sesl_dialog_divider_color_material_dark</item>
+        <item name="buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item name="borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="listPreferredItemHeightSmall">@dimen/sesl_list_preferred_item_height_small</item>
+        <item name="listPreferredItemPaddingLeft">@dimen/sesl_select_dialog_padding_start</item>
+        <item name="listPreferredItemPaddingRight">@dimen/sesl_select_dialog_padding_end</item>
+        <item name="textAppearanceListItem">@style/Base.TextAppearance.AppCompat.Dialog.List</item>
+        <item name="textAppearanceListItemSecondary">@style/Base.TextAppearance.AppCompat.Dialog.List.Secondary</item>
+        <item name="textAppearanceListItemSmall">@style/Base.TextAppearance.AppCompat.Dialog.List</item>
+        <item name="colorPrimary">@color/sesl_primary_color_dark</item>
+        <item name="colorPrimaryDark">@color/sesl_primary_dark_color_dark</item>
+        <item name="colorControlHighlight">@color/sesl_ripple_color_dark</item>
+        <item name="textColorAlertDialogListItem">@color/sesl_select_dialog_list_item_text_dark</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AppCompat.Button.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.AppCompat.Button.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.AppCompat.Button.Dialog</item>
+        <item name="colorPickerSelectedItemTextColor">@color/sesl_color_picker_selected_color_item_text_color_dark</item>
+        <item name="colorPickerEmptySlotColor">@color/sesl_color_picker_used_color_item_empty_slot_color_dark</item>
+        <item name="colorPickerStrokeColor">@color/sesl_color_picker_stroke_color_dark</item>
+    </style>
+    <style name="Base.V7.ThemeOverlay.AppCompat.Light.Dialog">
+        <item name="android:colorBackground">@color/sesl_dialog_window_background_color_material_light</item>
+        <item name="android:backgroundDimAmount">0.65</item>
+        <item name="android:disabledAlpha">0.4</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Light.Dialog</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
+        <item name="android:windowBackground">@drawable/sesl_dialog_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/RtlOverlay.DialogWindowTitle.AppCompat.Light</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/sesl_dialog_scrollbar_handle_material_light</item>
+        <item name="android:scrollbarThumbVertical">@drawable/sesl_dialog_scrollbar_handle_material_light</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/sesl_config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/sesl_select_dialog_padding_start</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/sesl_select_dialog_padding_end</item>
+        <item name="android:windowElevation">@dimen/sesl_dialog_window_elevation</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="dialogPreferredPadding">@dimen/sesl_dialog_padding</item>
+        <item name="seslDialogDivderColor">@color/sesl_dialog_divider_color_material_light</item>
+        <item name="buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item name="borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="listPreferredItemHeightSmall">@dimen/sesl_list_preferred_item_height_small</item>
+        <item name="listPreferredItemPaddingLeft">@dimen/sesl_select_dialog_padding_start</item>
+        <item name="listPreferredItemPaddingRight">@dimen/sesl_select_dialog_padding_end</item>
+        <item name="textAppearanceListItem">@style/Base.TextAppearance.AppCompat.Light.Dialog.List</item>
+        <item name="textAppearanceListItemSecondary">@style/Base.TextAppearance.AppCompat.Light.Dialog.List.Secondary</item>
+        <item name="textAppearanceListItemSmall">@style/Base.TextAppearance.AppCompat.Light.Dialog.List</item>
+        <item name="colorPrimary">@color/sesl_primary_color_light</item>
+        <item name="colorPrimaryDark">@color/sesl_primary_dark_color_light</item>
+        <item name="colorControlHighlight">@color/sesl_ripple_color_light</item>
+        <item name="textColorAlertDialogListItem">@color/sesl_select_dialog_list_item_text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.AppCompat.Light.Button.Dialog</item>
+        <item name="colorPickerSelectedItemTextColor">@color/sesl_color_picker_selected_color_item_text_color_light</item>
+        <item name="colorPickerEmptySlotColor">@color/sesl_color_picker_used_color_item_empty_slot_color_light</item>
+        <item name="colorPickerStrokeColor">@color/sesl_color_picker_stroke_color_light</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textColor">?android:attr/editTextColor</item>
+        <item name="android:background">?android:attr/editTextBackground</item>
+        <item name="android:dropDownSelector">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="android:popupBackground">@drawable/sesl_spinner_popup_background</item>
+        <item name="android:textCursorDrawable">@drawable/sesl_text_cursor</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/sesl_edit_text_size</item>
+        <item name="android:textColor">@color/sesl_edit_text</item>
+        <item name="android:textColorHint">@color/sesl_edit_text_hint_light</item>
+        <item name="android:background">?attr/editTextBackground</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textCursorDrawable">@drawable/sesl_text_cursor</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.Toolbar">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="background">@color/sesl_action_bar_background_color_dark</item>
+        <item name="contentInsetStart">@dimen/sesl_action_bar_content_inset</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="contentInsetStartWithNavigation">@dimen/sesl_action_bar_content_inset_with_nav</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle</item>
+        <item name="titleMargin">0dp</item>
+        <item name="maxButtonHeight">?attr/actionBarSize</item>
+        <item name="buttonGravity">30</item>
+        <item name="collapseIcon">?attr/homeAsUpIndicator</item>
+        <item name="collapseContentDescription">@string/sesl_toolbar_collapse_description</item>
+        <item name="paddingStart">0dp</item>
+        <item name="paddingEnd">0dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar">
+        <item name="height">?attr/actionBarSize</item>
+        <item name="displayOptions">8</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="background">@drawable/sesl_action_bar_background_dark</item>
+        <item name="backgroundStacked">@drawable/sesl_action_bar_background_stacked_dark</item>
+        <item name="backgroundSplit">@drawable/sesl_action_bar_background_split</item>
+        <item name="contentInsetStart">@dimen/sesl_action_bar_content_inset</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="contentInsetStartWithNavigation">@dimen/sesl_action_bar_content_inset_with_nav</item>
+        <item name="elevation">@dimen/sesl_action_bar_elevation</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.Solid">
+        <item name="background">?attr/colorPrimary</item>
+        <item name="backgroundStacked">?attr/colorPrimary</item>
+        <item name="backgroundSplit">?attr/colorPrimary</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabBar">
+        <item name="divider">?attr/actionBarDivider</item>
+        <item name="showDividers">2</item>
+        <item name="dividerPadding">8dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxWidth">180dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="background">@drawable/abc_tab_indicator_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">@dimen/sesl_action_button_min_width</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:maxLines">2</item>
+        <item name="textAllCaps">false</item>
+        <item name="paddingStart">@dimen/sesl_action_button_padding_horizontal</item>
+        <item name="paddingEnd">@dimen/sesl_action_button_padding_horizontal</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:minWidth">@dimen/sesl_action_button_min_width</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:src">@drawable/sesl_ic_menu_overflow_dark</item>
+        <item name="android:minWidth">@dimen/sesl_action_button_min_width_overflow</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:contentDescription">@string/sesl_action_menu_overflow_description</item>
+        <item name="paddingStart">@dimen/sesl_action_bar_overflow_padding_start</item>
+        <item name="paddingEnd">@dimen/sesl_action_bar_overflow_padding_end</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionMode">
+        <item name="height">?attr/actionBarSize</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
+        <item name="background">?attr/actionModeBackground</item>
+        <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
+        <item name="closeItemLayout">@layout/sesl_action_mode_close_item</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActivityChooserView">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">6dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.AutoCompleteTextView">
+    </style>
+    <style name="Base.Widget.AppCompat.Button">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/sesl_btn_default</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:minWidth">64dp</item>
+        <item name="android:minHeight">@dimen/sesl_alert_dialog_button_bar_height</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Dialog">
+        <item name="android:textSize">@dimen/sesl_dialog_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorPrimaryDark</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@drawable/sesl_dialog_btn_borderless</item>
+        <item name="android:minWidth">@dimen/sesl_dialog_button_min_width</item>
+        <item name="android:minHeight">@dimen/sesl_dialog_button_min_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:stateListAnimator">@drawable/sesl_dialog_button_disabled_anim</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.ButtonBar">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ButtonBar.AlertDialog">
+    </style>
+    <style name="Base.Widget.AppCompat.CheckedTextView">
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/sesl_control_background</item>
+        <item name="android:button">@drawable/sesl_btn_check</item>
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/sesl_control_background</item>
+        <item name="android:button">@drawable/sesl_btn_radio</item>
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:background">@drawable/sesl_switch_background</item>
+        <item name="android:textOn">@string/sesl_capital_on</item>
+        <item name="android:textOff">@string/sesl_capital_off</item>
+        <item name="android:thumb">@drawable/sesl_switch_thumb_dark_selector</item>
+        <item name="track">@drawable/sesl_switch_track_dark_selector</item>
+        <item name="switchTextAppearance">@style/TextAppearance.AppCompat.Widget.Switch</item>
+        <item name="switchPadding">0dp</item>
+        <item name="showText">false</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DatePicker">
+        <item name="btnTintColor">@color/sesl_date_picker_button_tint_color_dark</item>
+        <item name="dayNumberTextColor">@color/sesl_date_picker_normal_day_number_text_color_dark</item>
+        <item name="dayNumberDisabledAlpha">@integer/sesl_day_number_disabled_alpha_dark</item>
+        <item name="dayTextColor">@color/sesl_date_picker_normal_text_color_dark</item>
+        <item name="selectedDayNumberTextColor">@color/sesl_date_picker_selected_day_number_text_color_dark</item>
+        <item name="sundayTextColor">@color/sesl_date_picker_sunday_text_color_dark</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+        <item name="color">?android:attr/textColorSecondary</item>
+        <item name="spinBars">true</item>
+        <item name="arrowHeadLength">8dp</item>
+        <item name="arrowShaftLength">16dp</item>
+        <item name="thickness">2dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.DropDownItem</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:paddingTop">@dimen/sesl_popup_menu_item_top_padding</item>
+        <item name="android:paddingBottom">@dimen/sesl_popup_menu_item_bottom_padding</item>
+        <item name="android:checkMark">@drawable/sesl_spinner_checked_ic_selector</item>
+        <item name="android:minWidth">@dimen/sesl_dropdown_list_item_min_width</item>
+        <item name="android:minHeight">@dimen/sesl_popup_menu_item_min_height</item>
+        <item name="android:paddingStart">@dimen/sesl_popup_menu_item_start_padding</item>
+        <item name="android:paddingEnd">@dimen/sesl_popup_menu_item_end_padding</item>
+        <item name="checkMarkGravity">800005</item>
+    </style>
+    <style name="Base.Widget.AppCompat.EditText">
+    </style>
+    <style name="Base.Widget.AppCompat.FastScroll">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.FastScroll</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:minWidth">56dp</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="thumbDrawable">?android:attr/fastScrollThumbDrawable</item>
+        <item name="thumbMinWidth">0dp</item>
+        <item name="thumbMinHeight">0dp</item>
+        <item name="trackDrawable">?android:attr/fastScrollTrackDrawable</item>
+        <item name="backgroundRight">?android:attr/fastScrollPreviewBackgroundRight</item>
+        <item name="backgroundLeft">?android:attr/fastScrollPreviewBackgroundLeft</item>
+        <item name="position">?android:attr/fastScrollOverlayPosition</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ImageButton">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar">
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="background">@drawable/sesl_action_bar_background</item>
+        <item name="backgroundStacked">@drawable/sesl_action_bar_background_stacked</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">?attr/colorPrimary</item>
+        <item name="backgroundStacked">?attr/colorPrimary</item>
+        <item name="backgroundSplit">?attr/colorPrimary</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabBar">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium.Inverse</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="background">@drawable/abc_tab_indicator_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:src">@drawable/sesl_ic_menu_overflow</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionMode">
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.Button">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Light.Button</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.Button.Borderless">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.Button.Borderless.Colored">
+        <item name="android:textColor">@color/sesl_btn_colored_borderless_text</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.Button.Borderless.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.Button.Colored">
+        <item name="android:textColor">@color/sesl_btn_colored_borderless_text</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.Button.Dialog">
+        <item name="android:textSize">@dimen/sesl_dialog_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorPrimaryDark</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@drawable/sesl_dialog_btn_borderless</item>
+        <item name="android:minWidth">@dimen/sesl_dialog_button_min_width</item>
+        <item name="android:minHeight">@dimen/sesl_dialog_button_min_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:stateListAnimator">@drawable/sesl_dialog_button_disabled_anim</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.Button.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ButtonBar">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.CompoundButton.Switch">
+        <item name="android:background">@drawable/sesl_switch_background</item>
+        <item name="android:textOn">@string/sesl_capital_on</item>
+        <item name="android:textOff">@string/sesl_capital_off</item>
+        <item name="android:thumb">@drawable/sesl_switch_thumb_selector</item>
+        <item name="track">@drawable/sesl_switch_track_selector</item>
+        <item name="switchTextAppearance">@style/TextAppearance.AppCompat.Widget.Switch</item>
+        <item name="switchPadding">0dp</item>
+        <item name="showText">false</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.DatePicker">
+        <item name="btnTintColor">@color/sesl_date_picker_button_tint_color_light</item>
+        <item name="dayNumberTextColor">@color/sesl_date_picker_normal_day_number_text_color_light</item>
+        <item name="dayNumberDisabledAlpha">@integer/sesl_day_number_disabled_alpha_light</item>
+        <item name="dayTextColor">@color/sesl_date_picker_normal_text_color_light</item>
+        <item name="selectedDayNumberTextColor">@color/sesl_date_picker_selected_day_number_text_color_light</item>
+        <item name="sundayTextColor">@color/sesl_date_picker_sunday_text_color_light</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/sesl_list_popup_background</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:scrollbarThumbHorizontal">@drawable/sesl_dropdown_scrollbar_handle_light</item>
+        <item name="android:scrollbarThumbVertical">@drawable/sesl_dropdown_scrollbar_handle_light</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@drawable/sesl_menu_popup_background</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:popupBackground">@drawable/sesl_menu_popup_background</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ProgressBar.Inverse">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ProgressBar.Large.Inverse">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ProgressBar.Small.Inverse">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.SearchView">
+        <item name="queryBackground">@drawable/sesl_textfield_search</item>
+        <item name="submitBackground">@drawable/sesl_textfield_search</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.SeekBar">
+        <item name="android:thumb">@drawable/sesl_scrubber_control_anim</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.Spinner">
+        <item name="android:background">@drawable/sesl_spinner_background</item>
+        <item name="android:popupBackground">@drawable/sesl_spinner_popup_background</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Light.Widget.TextView.SpinnerItem</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.Toolbar">
+        <item name="background">@color/sesl_action_bar_background_color_light</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title.Inverse</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle.Inverse</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.Toolbar.Button.Navigation">
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:paddingStart">8dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListMenuView">
+    </style>
+    <style name="Base.Widget.AppCompat.ListPopupWindow">
+        <item name="android:dropDownSelector">?attr/listChoiceBackgroundIndicator</item>
+        <item name="android:popupBackground">@drawable/sesl_list_popup_background_dark</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+        <item name="android:dropDownVerticalOffset">0dp</item>
+        <item name="android:popupAnimationStyle">@style/Base.Animation.AppCompat.ListPopup</item>
+        <item name="android:popupElevation">@dimen/sesl_menu_popup_elevation</item>
+        <item name="popupEnterTransition">@null</item>
+        <item name="popupExitTransition">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListView">
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.DropDown">
+        <item name="android:scrollbarThumbHorizontal">@drawable/sesl_dropdown_scrollbar_handle_dark</item>
+        <item name="android:scrollbarThumbVertical">@drawable/sesl_dropdown_scrollbar_handle_dark</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.Menu">
+        <item name="android:listSelector">?attr/listChoiceBackgroundIndicator</item>
+        <item name="android:divider">?attr/dividerHorizontal</item>
+    </style>
+    <style name="Base.Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/sesl_menu_popup_background_dark</item>
+        <item name="android:dropDownHorizontalOffset">@dimen/sesl_menu_popup_offset_horizontal</item>
+        <item name="android:dropDownVerticalOffset">@dimen/sesl_menu_popup_offset_vertical</item>
+        <item name="android:popupAnimationStyle">@style/Base.Animation.AppCompat.MenuPopup</item>
+        <item name="android:popupElevation">@dimen/sesl_menu_popup_elevation</item>
+        <item name="overlapAnchor">true</item>
+        <item name="popupEnterTransition">@null</item>
+        <item name="popupExitTransition">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@drawable/sesl_menu_popup_background_dark</item>
+        <item name="android:dropDownHorizontalOffset">@dimen/sesl_menu_popup_offset_horizontal</item>
+        <item name="android:dropDownVerticalOffset">@dimen/sesl_menu_popup_offset_vertical</item>
+        <item name="android:popupAnimationStyle">@style/Base.Animation.AppCompat.MenuPopup</item>
+        <item name="android:popupElevation">@dimen/sesl_menu_popup_elevation</item>
+        <item name="overlapAnchor">true</item>
+        <item name="popupEnterTransition">@null</item>
+        <item name="popupExitTransition">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompat.PopupWindow">
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/sesl_progress</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Circle">
+        <item name="android:maxWidth">@dimen/sesl_progress_circle_size</item>
+        <item name="android:maxHeight">@dimen/sesl_progress_circle_size</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/sesl_progress</item>
+        <item name="android:progressDrawable">@drawable/sesl_progress_circle</item>
+        <item name="android:minWidth">55dp</item>
+        <item name="android:minHeight">55dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminateDrawable">@drawable/sesl_progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/sesl_progress_horizontal</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Large">
+        <item name="android:maxWidth">@dimen/sesl_progress_bar_size_large</item>
+        <item name="android:maxHeight">@dimen/sesl_progress_bar_size_large</item>
+        <item name="android:minWidth">@dimen/sesl_progress_bar_size_large</item>
+        <item name="android:minHeight">@dimen/sesl_progress_bar_size_large</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Small">
+        <item name="android:maxWidth">@dimen/sesl_progress_bar_size_small</item>
+        <item name="android:maxHeight">@dimen/sesl_progress_bar_size_small</item>
+        <item name="android:minWidth">@dimen/sesl_progress_bar_size_small</item>
+        <item name="android:minHeight">@dimen/sesl_progress_bar_size_small</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Title">
+        <item name="android:maxWidth">@dimen/sesl_progress_bar_size_small_title</item>
+        <item name="android:maxHeight">@dimen/sesl_progress_bar_size_small_title</item>
+        <item name="android:minWidth">@dimen/sesl_progress_bar_size_small_title</item>
+        <item name="android:minHeight">@dimen/sesl_progress_bar_size_small_title</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar">
+        <item name="android:indeterminateDrawable">@drawable/abc_ratingbar_material</item>
+        <item name="android:progressDrawable">@drawable/abc_ratingbar_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.SearchView">
+        <item name="layout">@layout/sesl_search_view</item>
+        <item name="defaultQueryHint">@string/sesl_search_hint</item>
+        <item name="closeIcon">@drawable/sesl_ic_clear</item>
+        <item name="goIcon">@drawable/sesl_ic_go_search_api</item>
+        <item name="searchIcon">@drawable/sesl_ic_search_api</item>
+        <item name="searchHintIcon">@drawable/sesl_ic_search_api</item>
+        <item name="voiceIcon">@drawable/sesl_ic_voice_search_api</item>
+        <item name="commitIcon">@drawable/sesl_ic_commit_search_api</item>
+        <item name="suggestionRowLayout">@layout/sesl_search_dropdown_item_icons_2line</item>
+        <item name="queryBackground">@drawable/sesl_textfield_search_dark</item>
+        <item name="submitBackground">@drawable/sesl_textfield_search_dark</item>
+    </style>
+    <style name="Base.Widget.AppCompat.SearchView.ActionBar">
+        <item name="defaultQueryHint">@string/sesl_search_hint</item>
+        <item name="searchHintIcon">@null</item>
+        <item name="queryBackground">@null</item>
+        <item name="submitBackground">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompat.SeekBar">
+        <item name="android:background">@drawable/sesl_seek_bar_background_borderless</item>
+        <item name="android:focusable">true</item>
+        <item name="android:indeterminateDrawable">@drawable/sesl_scrubber_progress_horizontal</item>
+        <item name="android:progressDrawable">@drawable/sesl_scrubber_progress_horizontal</item>
+        <item name="android:minHeight">@dimen/sesl_progress_bar_min_height</item>
+        <item name="android:thumb">@drawable/sesl_scrubber_control_anim_dark</item>
+        <item name="android:paddingStart">@dimen/sesl_progress_bar_min_height</item>
+        <item name="android:paddingEnd">@dimen/sesl_progress_bar_min_height</item>
+        <item name="android:splitTrack">false</item>
+        <item name="useDisabledAlpha">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.SeekBar.Discrete">
+        <item name="tickMark">@drawable/abc_seekbar_tick_mark_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner">
+        <item name="android:gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/sesl_spinner_background_dark</item>
+        <item name="android:clickable">true</item>
+        <item name="android:dropDownSelector">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="android:popupBackground">@drawable/sesl_spinner_popup_background_dark</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+        <item name="android:dropDownVerticalOffset">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:popupElevation">@dimen/sesl_menu_popup_elevation</item>
+        <item name="overlapAnchor">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.TextView.ListSeparator">
+        <item name="android:textSize">@dimen/sesl_list_subheader_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sesl_list_subheader_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:background">?attr/roundedCornerColor</item>
+        <item name="android:paddingTop">@dimen/sesl_list_subheader_padding_top</item>
+        <item name="android:paddingBottom">@dimen/sesl_list_subheader_padding_bottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:paddingStart">?android:attr/listPreferredItemPaddingStart</item>
+        <item name="android:paddingEnd">?android:attr/listPreferredItemPaddingEnd</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="Base.Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem</item>
+        <item name="android:paddingTop">@dimen/sesl_spinner_item_top_padding</item>
+        <item name="android:paddingBottom">@dimen/sesl_spinner_item_bottom_padding</item>
+        <item name="android:paddingStart">@dimen/sesl_spinner_item_start_padding</item>
+        <item name="android:paddingEnd">@dimen/sesl_spinner_item_end_padding</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:paddingStart">8dp</item>
+    </style>
+    <style name="Base.Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/sesl_tablayout_selected_indicator_color</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabBackground">@drawable/sesl_tablayout_tab_background</item>
+        <item name="tabMaxWidth">@dimen/sesl_tab_max_width</item>
+        <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
+        <item name="tabSelectedTextColor">@color/sesl_tablayout_selected_text_color</item>
+        <item name="tabPaddingStart">0dp</item>
+        <item name="tabPaddingEnd">0dp</item>
+    </style>
+    <style name="BaseTextAppearance.AppCompat.Widget.FastScroll">
+        <item name="android:textStyle">@null</item>
+        <item name="android:fontFamily">@string/sesl_font_family_regular</item>
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="CheckBoxLineSeperator">
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/checkbox_inset_for_divider</item>
+    </style>
+    <style name="ChronometerNotificationStyle">
+        <item name="android:textColor">@color/chronometer_notification_text_color</item>
+    </style>
+    <style name="ChronometerNotificationTitleStyle">
+        <item name="android:textColor">@color/chronometer_notification_title_text_color</item>
+    </style>
+    <style name="CityTextStyle">
+        <item name="android:textSize">@dimen/dualclock_common_city_textview_textsize</item>
+        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="ClockActionBarStyle">
+        <item name="android:background">@drawable/actionbar_bg_divider</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:backgroundStacked">@drawable/actionbar_bg_divider</item>
+    </style>
+    <style name="ClockActionBarStyle_HomeAsUp">
+        <item name="android:displayOptions">c</item>
+    </style>
+    <style name="ClockActionBarStyle_NoDivider">
+        <item name="android:background">@drawable/actionbar_bg</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:backgroundStacked">@drawable/actionbar_bg</item>
+    </style>
+    <style name="ClockActionBarStyle_WC">
+        <item name="android:displayOptions">@null</item>
+    </style>
+    <style name="ClockAllCheckBoxStyle">
+        <item name="android:button">@drawable/checkbox_background</item>
+    </style>
+    <style name="ClockAllCheckBoxTheme">
+        <item name="colorControlNormal">@color/clock_all_checkbox_dim</item>
+        <item name="colorControlActivated">@color/clock_all_checkbox</item>
+        <item name="checkboxStyle">@style/ClockAllCheckBoxStyle</item>
+    </style>
+    <style name="ClockListCheckBoxTheme">
+        <item name="colorControlActivated">@color/primary_checkBox</item>
+    </style>
+    <style name="ClockMasterOnOffSwitchTheme">
+        <item name="android:colorControlActivated">@color/color_control_activate</item>
+        <item name="android:colorPrimary">@color/primary</item>
+    </style>
+    <style name="ClockTabLayoutTextAppearance">
+        <item name="android:textSize">@dimen/clock_tab_text_size</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="ClockTheme">
+        <item name="android:actionBarStyle">@style/ClockActionBarStyle_HomeAsUp</item>
+        <item name="android:listPopupWindowStyle">@style/WeatherUnitPopup</item>
+        <item name="android:homeAsUpIndicator">@drawable/actionbar_home_indicator_icon</item>
+        <item name="android:actionMenuTextColor">@color/action_button_text_color</item>
+        <item name="android:colorControlNormal">@color/common_component_color</item>
+        <item name="android:colorControlActivated">@color/color_control_activate</item>
+        <item name="android:actionBarTheme">@style/ClockActionBarTheme</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor">@color/status_bar_bg_color</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_bg_color</item>
+        <item name="?0x10104e0">@bool/status_bar_icon_color</item>
+        <item name="?0x101056c">@bool/light_navigation_bar_icon_color</item>
+        <item name="?0x1010586">1</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorControlNormal">@color/common_component_color</item>
+        <item name="colorControlActivated">@color/color_control_activate</item>
+    </style>
+    <style name="ClockThemeMain">
+        <item name="android:colorBackground">@color/window_background_color</item>
+        <item name="android:windowBackground">@color/window_background_color</item>
+        <item name="android:alertDialogTheme">@style/MyCustomThemeForDialog</item>
+        <item name="android:colorControlNormal">@color/common_component_color</item>
+        <item name="android:colorControlActivated">@color/color_control_activate</item>
+        <item name="android:actionBarTheme">@style/ClockActionBarTheme</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="android:colorAccent">@color/color_accent_color</item>
+        <item name="android:statusBarColor">@color/status_bar_bg_color</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_bg_color</item>
+        <item name="?0x10104e0">@bool/status_bar_icon_color</item>
+        <item name="?0x10104e2">@color/clock_list_floating_background_color</item>
+        <item name="?0x101056c">@bool/light_navigation_bar_icon_color</item>
+        <item name="?0x1010586">1</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorControlNormal">@color/common_component_color</item>
+        <item name="colorControlActivated">@color/color_control_activate</item>
+        <item name="editTextStyle">@style/EditTextSamsungStyle</item>
+    </style>
+    <style name="ClockTheme_AlarmEdit">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:alertDialogTheme">@style/MyCustomThemeForDialog</item>
+        <item name="android:actionMenuTextColor">@color/action_button_text_color</item>
+        <item name="android:colorControlNormal">@color/common_component_color</item>
+        <item name="android:colorControlActivated">@color/color_control_activate</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="android:statusBarColor">@color/status_bar_bg_color</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_bg_color</item>
+        <item name="?0x10104e0">@bool/status_bar_icon_color</item>
+        <item name="?0x101056c">@bool/light_navigation_bar_icon_color</item>
+        <item name="?0x1010586">1</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorControlNormal">@color/common_component_color</item>
+        <item name="colorControlActivated">@color/color_control_activate</item>
+    </style>
+    <style name="ClockTheme_WC">
+        <item name="android:windowBackground">@drawable/window_content_area_for_clocktheme</item>
+        <item name="android:actionBarStyle">@style/ClockActionBarStyle_WC</item>
+        <item name="android:listPopupWindowStyle">@style/WeatherUnitPopup</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="android:statusBarColor">@color/status_bar_bg_color</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_bg_color</item>
+        <item name="?0x10104e0">@bool/status_bar_icon_color</item>
+        <item name="?0x101056c">@bool/light_navigation_bar_icon_color</item>
+        <item name="?0x1010586">1</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorControlActivated">@color/primary_checkBox</item>
+    </style>
+    <style name="CustomCheckBox">
+        <item name="android:textSize">@dimen/alarm_customCheckBox_text_size</item>
+        <item name="android:gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/common_detail_list_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/clock_winset_listview_min_height</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:drawableStart">?android:attr/listChoiceIndicatorSingle</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="?0x101053e">@dimen/clock_winset_listview_padding_top_bottom</item>
+    </style>
+    <style name="CustomTextDesignHintStyle">
+        <item name="android:textSize">0dp</item>
+    </style>
+    <style name="CustomTextInputLayoutStyle">
+        <item name="hintTextAppearance">@style/CustomTextDesignHintStyle</item>
+    </style>
+    <style name="DateTextStyle">
+        <item name="android:textSize">@dimen/clockwidget_common_date_textview_textsize</item>
+        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+        <item name="android:paddingStart">@dimen/clockwidget_common_date_textView_padding_start_end</item>
+        <item name="android:paddingEnd">@dimen/clockwidget_common_date_textView_padding_start_end</item>
+    </style>
+    <style name="DateTextStyleHorizontal">
+        <item name="android:textSize">@dimen/digitalclock_horizontal_common_date_textview_textsize</item>
+        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+    <style name="DefaultStyleForDesignLib">
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorAccent">?android:attr/colorAccent</item>
+        <item name="colorControlHighlight">?android:attr/colorControlHighlight</item>
+    </style>
+    <style name="DefaultWinsetListViewDivider">
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="DescriptionStyle">
+        <item name="android:textSize">@dimen/clock_description_textview_textsize</item>
+        <item name="android:textColor">@color/alarm_celeb_description_color</item>
+        <item name="android:paddingBottom">@dimen/clock_description_padding_bottom</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingStart">?android:attr/listPreferredItemPaddingStart</item>
+        <item name="android:paddingEnd">?android:attr/listPreferredItemPaddingEnd</item>
+    </style>
+    <style name="Direction_LTR">
+        <item name="android:layoutDirection">@null</item>
+    </style>
+    <style name="FullAlertTopIcon">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/full_alert_top_icon_color</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:drawablePadding">@dimen/full_alert_top_icon_drawable_padding</item>
+        <item name="android:drawableStart">@drawable/clock_alarm_ic_alert</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+        <item name="android:layoutDirection">@null</item>
+        <item name="?0x10104d6">@color/full_alert_top_icon_color</item>
+    </style>
+    <style name="HighlightDialogPrimaryTextStyle">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?android:attr/textColorAlertDialogListItem</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+    <style name="HighlightDialogSecondaryTextStyle">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSecondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="LineSeperator">
+        <item name="android:background">@drawable/tw_list_divider_holo_dark</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2px</item>
+    </style>
+    <style name="LineSeperator_1px">
+        <item name="android:background">@color/alarm_alert_divider_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+    <style name="ListCategoryText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/category_color</item>
+        <item name="android:gravity">center_vertical|clip_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">39dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="ListPrimaryTextStyle">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItem</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="ListViewLineSeperator">
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+    <style name="ListViewStyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/common_detail_list_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/clock_winset_listview_min_height</item>
+        <item name="?0x101053e">@dimen/alarm_winset_listview_padding_top_bottom</item>
+    </style>
+    <style name="NameEditTextStyle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">@color/hint_text_color</item>
+        <item name="android:background">?android:attr/editTextBackground</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">none|text|textEmailAddress|textPassword|textWebEditText</item>
+        <item name="android:privateImeOptions">inputType=PredictionOff;disableImage=true;disableLiveMessage=true;disableGifKeyboard=true;disableSticker=true</item>
+        <item name="android:imeOptions">actionUnspecified|actionGo|actionSend|actionDone</item>
+    </style>
+    <style name="NumberStyle">
+        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="NumberStyleHorizontal">
+        <item name="android:textSize">@dimen/digitalclock_timeview_number_textview_textsize_horizontal</item>
+        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="OpenSourceTheme">
+        <item name="android:actionBarStyle">@style/ClockActionBarStyle_HomeAsUp</item>
+        <item name="android:statusBarColor">@color/status_bar_bg_color</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_bg_color</item>
+        <item name="?0x10104e0">@bool/status_bar_icon_color</item>
+        <item name="?0x101056c">@bool/light_navigation_bar_icon_color</item>
+    </style>
+    <style name="Preference">
+        <item name="android:layout">@layout/sesl_preference</item>
+    </style>
+    <style name="Preference.Category">
+        <item name="android:layout">@layout/sesl_preference_category</item>
+        <item name="android:selectable">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.CheckBoxPreference">
+        <item name="android:widgetLayout">@layout/sesl_preference_widget_checkbox</item>
+    </style>
+    <style name="Preference.DialogPreference">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+    <style name="Preference.DialogPreference.EditTextPreference">
+        <item name="android:dialogLayout">@layout/sesl_preference_dialog_edittext</item>
+    </style>
+    <style name="Preference.DialogPreference.SeekBarPreferenceCompat">
+        <item name="android:dialogLayout">@layout/sesl_preference_dialog_seekbar</item>
+    </style>
+    <style name="Preference.DropDown">
+        <item name="android:layout">@layout/sesl_preference_dropdown</item>
+    </style>
+    <style name="Preference.Information">
+        <item name="android:enabled">false</item>
+        <item name="android:layout">@layout/preference_information</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.PreferenceScreen">
+    </style>
+    <style name="Preference.RingtonePreference">
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showDefault">true</item>
+        <item name="android:showSilent">true</item>
+    </style>
+    <style name="Preference.SeekBarPreference">
+        <item name="android:layout">@layout/sesl_preference_widget_seekbar</item>
+        <item name="adjustable">true</item>
+        <item name="showSeekBarValue">true</item>
+    </style>
+    <style name="Preference.SeekBarPreferenceCompat">
+        <item name="android:layout">@layout/sesl_preference_widget_seekbar</item>
+    </style>
+    <style name="Preference.SwitchPreferenceCompat">
+        <item name="android:widgetLayout">@layout/sesl_preference_widget_switch</item>
+        <item name="android:switchTextOn">@string/sesl_preference_on</item>
+        <item name="android:switchTextOff">@string/sesl_preference_off</item>
+    </style>
+    <style name="PreferenceThemeOverlay">
+        <item name="preferenceScreenStyle">@style/Preference.PreferenceScreen</item>
+        <item name="preferenceFragmentStyle">@style/PreferenceFragment</item>
+        <item name="preferenceFragmentCompatStyle">@style/PreferenceFragment</item>
+        <item name="preferenceStyle">@style/Preference</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.SwitchPreferenceCompat</item>
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat.Light">
+    </style>
+    <style name="StopwatchButtonStyle">
+        <item name="android:textSize">@dimen/stopwatch_button_textsize</item>
+        <item name="android:typeface">@null</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">@dimen/stopwatch_button_width</item>
+        <item name="android:layout_height">@dimen/stopwatch_button_height</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+        <item name="?0x101053d">@dimen/stopwatch_button_padding</item>
+        <item name="?0x101053e">@dimen/stopwatch_button_padding_vertical</item>
+    </style>
+    <style name="StopwatchLapTimeViewStyle">
+        <item name="android:textSize">@dimen/stopwatch_laptime_textsize</item>
+        <item name="android:textColor">@color/stopwatch_laptime_textcolor</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="StopwatchTiimeViewColonStyle">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">@dimen/stopwatch_time_period_textview_width</item>
+    </style>
+    <style name="StopwatchTimeViewNumberStyle">
+        <item name="android:layout_width">@dimen/stopwatch_time_textview_width</item>
+    </style>
+    <style name="StopwatchTimeViewStyle">
+        <item name="android:textSize">@dimen/stopwatch_time_textview_textsize</item>
+        <item name="android:textColor">@color/stopwatch_time_textcolor</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="SubAppBarTextStyle">
+        <item name="android:textSize">@dimen/sub_appbar_text_size</item>
+        <item name="android:textColor">@color/sub_appbar_text_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginStart">@dimen/clock_sub_appbar_marginStart</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="TabletAmPmTextStyle">
+        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:layout_marginBottom">@dimen/dualclock_timeview_ampm_textview_margin_bottom</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TabletCityTextStyle">
+        <item name="android:textSize">@dimen/dualclock_widget_city_text_size</item>
+        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TabletDateTextStyle">
+        <item name="android:textSize">@dimen/dualclock_widget_date_text_size</item>
+        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TabletNumberStyle">
+        <item name="android:textSize">@dimen/dualclock_widget_time_text_size</item>
+        <item name="android:textColor">@color/widget_text_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.AppCompat">
+    </style>
+    <style name="TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="TextAppearance.AppCompat.Body2">
+    </style>
+    <style name="TextAppearance.AppCompat.Button">
+    </style>
+    <style name="TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.AppCompat.Dialog">
+    </style>
+    <style name="TextAppearance.AppCompat.Dialog.List">
+    </style>
+    <style name="TextAppearance.AppCompat.Dialog.List.Secondary">
+    </style>
+    <style name="TextAppearance.AppCompat.Display1">
+    </style>
+    <style name="TextAppearance.AppCompat.Display2">
+    </style>
+    <style name="TextAppearance.AppCompat.Display3">
+    </style>
+    <style name="TextAppearance.AppCompat.Display4">
+    </style>
+    <style name="TextAppearance.AppCompat.Headline">
+    </style>
+    <style name="TextAppearance.AppCompat.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Large">
+    </style>
+    <style name="TextAppearance.AppCompat.Large.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Header">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Widget.TextView.SpinnerItem">
+    </style>
+    <style name="TextAppearance.AppCompat.Medium">
+    </style>
+    <style name="TextAppearance.AppCompat.Medium.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Menu">
+    </style>
+    <style name="TextAppearance.AppCompat.SearchResult.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompat.SearchResult.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Small">
+    </style>
+    <style name="TextAppearance.AppCompat.Small.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Subhead">
+    </style>
+    <style name="TextAppearance.AppCompat.Subhead.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Title.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Button">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Button.Colored">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Button.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.DropDownItem">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.FastScroll">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Light.Button">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Light.FastScroll">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Header">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Switch">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2">
+    </style>
+    <style name="TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item name="android:textSize">@dimen/sesl_action_bar_text_size_title_extend</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.Design.CollapsingToolbar.Expanded.Subtitle">
+        <item name="android:textColor">@color/sesl_extended_appbar_subtitle_dark</item>
+    </style>
+    <style name="TextAppearance.Design.Counter">
+    </style>
+    <style name="TextAppearance.Design.Counter.Overflow">
+        <item name="android:textColor">@color/sesl_error</item>
+    </style>
+    <style name="TextAppearance.Design.Error">
+        <item name="android:textColor">@color/sesl_error</item>
+    </style>
+    <style name="TextAppearance.Design.Hint">
+        <item name="android:textColor">?attr/colorControlActivated</item>
+    </style>
+    <style name="TextAppearance.Design.Light.CollapsingToolbar.Expanded">
+        <item name="android:textSize">@dimen/sesl_action_bar_text_size_title_extend</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.Design.Light.CollapsingToolbar.Expanded.Subtitle">
+        <item name="android:textColor">@color/sesl_extended_appbar_subtitle_light</item>
+    </style>
+    <style name="TextAppearance.Design.Snackbar.Message">
+        <item name="android:textSize">@dimen/sesl_snackbar_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/sesl_tab_text_size</item>
+        <item name="android:textColor">@color/sesl_tablayout_text_color</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TextAppearance.Design.Tab.Inverse">
+        <item name="android:textColor">@color/sesl_tablayout_text_color_dark</item>
+    </style>
+    <style name="TextAppearance.Design.Widget.BottomNavigationView">
+        <item name="android:textSize">@dimen/sesl_bottom_navigation_text_size</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textColor">@color/sesl_bottom_navigation_text_dark</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TextAppearance.Design.Widget.BottomNavigationView.Inverse">
+        <item name="android:textColor">@color/sesl_bottom_navigation_text_light</item>
+    </style>
+    <style name="TextAppearance.Design.Widget.BottomNavigationView.Text">
+        <item name="android:textSize">@dimen/sesl_bottom_navigation_textmode_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sesl_bottombar_text_color_dark</item>
+    </style>
+    <style name="TextAppearance.Design.Widget.BottomNavigationView.Text.Inverse">
+        <item name="android:textColor">@color/sesl_bottombar_text_color_light</item>
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle.Inverse">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title.Inverse">
+    </style>
+    <style name="TextColorSecondaryStyle">
+        <item name="android:textSize">@dimen/alarm_textStyle_2_size</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextStyle_1">
+        <item name="android:textSize">@dimen/default_list_item_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginStart">@dimen/alarm_detail_item_textview_margin_start</item>
+    </style>
+    <style name="TextStyle_2">
+        <item name="android:textSize">@dimen/alarm_textStyle_2_size</item>
+        <item name="android:textColor">@color/alarm_detail_sub_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginStart">@dimen/alarm_detail_item_textview_margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/alarm_detail_item_switch_margin_start</item>
+    </style>
+    <style name="Theme.AppCompat">
+    </style>
+    <style name="Theme.AppCompat.CompactMenu">
+    </style>
+    <style name="Theme.AppCompat.Dialog">
+    </style>
+    <style name="Theme.AppCompat.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.Light">
+    </style>
+    <style name="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.Light.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AppCompat.Light.PickerDialog.DatePicker">
+    </style>
+    <style name="Theme.AppCompat.Light.PickerDialog.TimePicker">
+    </style>
+    <style name="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AppCompat.PickerDialog.DatePicker">
+    </style>
+    <style name="Theme.AppCompat.PickerDialog.TimePicker">
+    </style>
+    <style name="Theme.Design">
+        <item name="extendTitleTextAppearance">@style/TextAppearance.Design.CollapsingToolbar.Expanded</item>
+        <item name="collapseTitleTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
+        <item name="textColorError">?attr/colorError</item>
+    </style>
+    <style name="Theme.Design.BottomSheetDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+        <item name="bottomSheetStyle">@style/Widget.Design.BottomSheet.Modal</item>
+    </style>
+    <style name="Theme.Design.Light">
+        <item name="extendTitleTextAppearance">@style/TextAppearance.Design.Light.CollapsingToolbar.Expanded</item>
+        <item name="collapseTitleTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse</item>
+        <item name="textColorError">?attr/colorError</item>
+    </style>
+    <style name="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+        <item name="bottomSheetStyle">@style/Widget.Design.BottomSheet.Modal</item>
+    </style>
+    <style name="Theme.Design.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Design.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat">
+    </style>
+    <style name="ThemeOverlay.AppCompat.ActionBar">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dark">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dialog">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dialog.Alert">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Light">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Light.Dialog">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Light.Dialog.Alert">
+    </style>
+    <style name="TimerAddPopupColonStyle">
+        <item name="android:textSize">@dimen/timer_common_preset_popup_time_textsize</item>
+        <item name="android:textColor">@color/primary_dark_color</item>
+        <item name="android:layout_width">@dimen/timer_common_preset_popup_colon_width</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TimerAddPopupNumberStyle">
+        <item name="android:textSize">@dimen/timer_common_preset_popup_time_textsize</item>
+        <item name="android:textColor">@color/primary_dark_color</item>
+        <item name="android:textColorHighlight">@color/timer_preset_popup_highlight_color</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">@dimen/timer_common_preset_popup_time_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:maxLength">2</item>
+        <item name="android:inputType">number</item>
+        <item name="android:privateImeOptions">inputType=YearDateTime_edittext</item>
+        <item name="android:imeOptions">actionUnspecified|actionNone|actionSend|actionNext</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TimerColonStyle">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/colon</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="TimerFullAlertClearCoverTimeViewStyle">
+        <item name="android:textColor">@color/alert_clear_cover_text_color</item>
+    </style>
+    <style name="TimerFullAlertNormalTimeViewStyle">
+        <item name="android:textColor">@color/alert_text_color</item>
+    </style>
+    <style name="TimerFullAlertRestartBtnStyle">
+        <item name="android:textSize">@dimen/alarm_snooze_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/timer_alert_time_layout_restartbtn_height</item>
+        <item name="android:text">@string/restart</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+        <item name="?0x101053d">@dimen/alarm_margin_snooze_btn_left</item>
+    </style>
+    <style name="TimerFullAlertTimeViewStyle">
+        <item name="android:textSize">@dimen/timer_alert_hms_textview_number_textsize</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TimerFullAlertTimerNameStyle">
+        <item name="android:textSize">@dimen/timer_alert_timeout_textview_textsize</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/timer_times_out</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TimerPickerViewColonStyle">
+        <item name="android:textSize">@dimen/timer_common_timepicker_colon_textsize</item>
+        <item name="android:textColor">@color/timepicker_text_color</item>
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:layout_width">@dimen/timer_common_timepicker_colon_width</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="TimerPickerViewPickerStyle">
+        <item name="android:theme">@style/AlarmThemeTimePicker</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:descendantFocusability">afterDescendants</item>
+        <item name="android:layout_width">@dimen/timer_common_timepicker_twtimepicker_width</item>
+        <item name="android:layout_height">@dimen/timer_common_timepicker_layout_min_height</item>
+    </style>
+    <style name="TimerTimeViewColonStyle">
+        <item name="android:textSize">@dimen/timer_common_hms_textview_colon_textsize</item>
+        <item name="android:textColor">@color/timer_time_textcolor</item>
+        <item name="android:layout_width">@dimen/timer_common_hms_textview_colon_width</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TimerTimeViewNumberStyle">
+        <item name="android:textSize">@dimen/timer_common_hms_textview_time_textsize</item>
+        <item name="android:textColor">@color/timer_time_textcolor</item>
+        <item name="android:layout_width">@dimen/timer_common_hms_textview_time_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TimerTitleViewStyle">
+        <item name="android:textSize">@dimen/timer_common_hms_textview_textsize</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textColor">@color/timer_title_textcolor</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:focusable">true</item>
+        <item name="android:visibility">@null</item>
+        <item name="android:layout_width">@dimen/timer_common_timepicker_textview_text_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="ToolbarBackgroundStyle">
+        <item name="android:background">@drawable/actionbar_bg</item>
+    </style>
+    <style name="WeatherLogoImage">
+        <item name="android:textSize">@dimen/worldclock_cp_powered_by_textsize</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:tint">@color/alarm_weather_cp_logo_color_selector</item>
+        <item name="android:tintMode">src_in</item>
+    </style>
+    <style name="WeatherLogoLayout">
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">25dp</item>
+    </style>
+    <style name="WeatherLogoText">
+        <item name="android:textSize">@dimen/worldclock_cp_powered_by_textsize</item>
+        <item name="android:textColor">@color/alarm_weather_cp_text_color_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/worldclock_cp_powered_by_text_margin_end</item>
+    </style>
+    <style name="Widget.AppCompat.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.Solid">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.TabBar">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.TabText">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.TabView">
+    </style>
+    <style name="Widget.AppCompat.ActionButton">
+    </style>
+    <style name="Widget.AppCompat.ActionButton.CloseMode">
+    </style>
+    <style name="Widget.AppCompat.ActionButton.Overflow">
+    </style>
+    <style name="Widget.AppCompat.ActionMode">
+    </style>
+    <style name="Widget.AppCompat.ActivityChooserView">
+    </style>
+    <style name="Widget.AppCompat.AutoCompleteTextView">
+    </style>
+    <style name="Widget.AppCompat.Button">
+    </style>
+    <style name="Widget.AppCompat.Button.Borderless">
+    </style>
+    <style name="Widget.AppCompat.Button.Borderless.Colored">
+    </style>
+    <style name="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+    </style>
+    <style name="Widget.AppCompat.Button.Colored">
+    </style>
+    <style name="Widget.AppCompat.Button.Dialog">
+    </style>
+    <style name="Widget.AppCompat.Button.Small">
+    </style>
+    <style name="Widget.AppCompat.ButtonBar">
+    </style>
+    <style name="Widget.AppCompat.ButtonBar.AlertDialog">
+    </style>
+    <style name="Widget.AppCompat.CheckedTextView">
+    </style>
+    <style name="Widget.AppCompat.CompoundButton.CheckBox">
+    </style>
+    <style name="Widget.AppCompat.CompoundButton.RadioButton">
+    </style>
+    <style name="Widget.AppCompat.CompoundButton.Switch">
+    </style>
+    <style name="Widget.AppCompat.DatePicker">
+    </style>
+    <style name="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">?attr/colorControlNormal</item>
+    </style>
+    <style name="Widget.AppCompat.DropDownItem.Spinner">
+    </style>
+    <style name="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/sesl_edit_text_dark</item>
+        <item name="android:textColorHint">@color/sesl_edit_text_hint_color_dark</item>
+    </style>
+    <style name="Widget.AppCompat.FastScroll">
+    </style>
+    <style name="Widget.AppCompat.ImageButton">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionButton">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionButton.CloseMode">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionButton.Overflow">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionMode">
+    </style>
+    <style name="Widget.AppCompat.Light.ActivityChooserView">
+    </style>
+    <style name="Widget.AppCompat.Light.AutoCompleteTextView">
+    </style>
+    <style name="Widget.AppCompat.Light.Button">
+    </style>
+    <style name="Widget.AppCompat.Light.Button.Borderless">
+    </style>
+    <style name="Widget.AppCompat.Light.Button.Borderless.Colored">
+    </style>
+    <style name="Widget.AppCompat.Light.Button.ButtonBar.AlertDialog">
+    </style>
+    <style name="Widget.AppCompat.Light.Button.Colored">
+    </style>
+    <style name="Widget.AppCompat.Light.Button.Dialog">
+    </style>
+    <style name="Widget.AppCompat.Light.Button.Small">
+    </style>
+    <style name="Widget.AppCompat.Light.ButtonBar">
+    </style>
+    <style name="Widget.AppCompat.Light.ButtonBar.AlertDialog">
+    </style>
+    <style name="Widget.AppCompat.Light.CheckedTextView">
+    </style>
+    <style name="Widget.AppCompat.Light.CompoundButton.CheckBox">
+    </style>
+    <style name="Widget.AppCompat.Light.CompoundButton.RadioButton">
+    </style>
+    <style name="Widget.AppCompat.Light.CompoundButton.Switch">
+    </style>
+    <style name="Widget.AppCompat.Light.DatePicker">
+    </style>
+    <style name="Widget.AppCompat.Light.DropDownItem.Spinner">
+    </style>
+    <style name="Widget.AppCompat.Light.EditText">
+        <item name="android:textColor">@color/sesl_edit_text_light</item>
+        <item name="android:textColorHint">@color/sesl_edit_text_hint_color_light</item>
+    </style>
+    <style name="Widget.AppCompat.Light.FastScroll">
+    </style>
+    <style name="Widget.AppCompat.Light.ImageButton">
+    </style>
+    <style name="Widget.AppCompat.Light.ListPopupWindow">
+    </style>
+    <style name="Widget.AppCompat.Light.ListView">
+    </style>
+    <style name="Widget.AppCompat.Light.ListView.DropDown">
+    </style>
+    <style name="Widget.AppCompat.Light.PopupMenu">
+    </style>
+    <style name="Widget.AppCompat.Light.PopupMenu.Overflow">
+    </style>
+    <style name="Widget.AppCompat.Light.PopupWindow">
+    </style>
+    <style name="Widget.AppCompat.Light.ProgressBar">
+    </style>
+    <style name="Widget.AppCompat.Light.ProgressBar.Circle">
+    </style>
+    <style name="Widget.AppCompat.Light.ProgressBar.Horizontal">
+    </style>
+    <style name="Widget.AppCompat.Light.ProgressBar.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ProgressBar.Large">
+    </style>
+    <style name="Widget.AppCompat.Light.ProgressBar.Large.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ProgressBar.Small">
+    </style>
+    <style name="Widget.AppCompat.Light.ProgressBar.Small.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ProgressBar.Small.Title">
+    </style>
+    <style name="Widget.AppCompat.Light.SearchView">
+    </style>
+    <style name="Widget.AppCompat.Light.SearchView.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.Light.SeekBar">
+    </style>
+    <style name="Widget.AppCompat.Light.SeekBar.Discrete">
+    </style>
+    <style name="Widget.AppCompat.Light.Spinner">
+    </style>
+    <style name="Widget.AppCompat.Light.Spinner.DropDown">
+    </style>
+    <style name="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.Light.TextView.ListSeparator">
+    </style>
+    <style name="Widget.AppCompat.Light.TextView.SpinnerItem">
+    </style>
+    <style name="Widget.AppCompat.Light.Toolbar">
+    </style>
+    <style name="Widget.AppCompat.Light.Toolbar.Button.Navigation">
+    </style>
+    <style name="Widget.AppCompat.ListMenuView">
+    </style>
+    <style name="Widget.AppCompat.ListPopupWindow">
+    </style>
+    <style name="Widget.AppCompat.ListView">
+    </style>
+    <style name="Widget.AppCompat.ListView.DropDown">
+    </style>
+    <style name="Widget.AppCompat.ListView.Menu">
+    </style>
+    <style name="Widget.AppCompat.PopupMenu">
+    </style>
+    <style name="Widget.AppCompat.PopupMenu.Overflow">
+    </style>
+    <style name="Widget.AppCompat.PopupWindow">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar.Circle">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar.Horizontal">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar.Inverse">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar.Large">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar.Large.Inverse">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar.Small">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar.Small.Inverse">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar.Small.Title">
+    </style>
+    <style name="Widget.AppCompat.RatingBar">
+    </style>
+    <style name="Widget.AppCompat.RatingBar.Indicator">
+    </style>
+    <style name="Widget.AppCompat.RatingBar.Small">
+    </style>
+    <style name="Widget.AppCompat.SearchView">
+    </style>
+    <style name="Widget.AppCompat.SearchView.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.SeekBar">
+    </style>
+    <style name="Widget.AppCompat.SeekBar.Discrete">
+    </style>
+    <style name="Widget.AppCompat.Spinner">
+    </style>
+    <style name="Widget.AppCompat.Spinner.DropDown">
+    </style>
+    <style name="Widget.AppCompat.Spinner.DropDown.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.Spinner.Underlined">
+    </style>
+    <style name="Widget.AppCompat.TextView.ListSeparator">
+    </style>
+    <style name="Widget.AppCompat.TextView.SpinnerItem">
+    </style>
+    <style name="Widget.AppCompat.Toolbar">
+    </style>
+    <style name="Widget.AppCompat.Toolbar.Button.Navigation">
+    </style>
+    <style name="Widget.Design.AppBarLayout">
+        <item name="android:paddingBottom">@dimen/sesl_extended_appbar_bottom_padding</item>
+    </style>
+    <style name="Widget.Design.BottomNavigationView">
+        <item name="android:background">@color/sesl_bottom_navigation_background_dark</item>
+        <item name="android:paddingStart">@dimen/sesl_bottom_navigation_padding</item>
+        <item name="android:paddingEnd">@dimen/sesl_bottom_navigation_padding</item>
+        <item name="android:elevation">@dimen/sesl_bottom_navigation_elevation</item>
+        <item name="bottomTextAppearance">@style/TextAppearance.Design.Widget.BottomNavigationView</item>
+        <item name="itemIconTint">@color/sesl_bottombar_icon_color_dark</item>
+        <item name="itemTextColor">@color/sesl_bottombar_color_dark</item>
+        <item name="itemBackground">@drawable/sesl_bottom_navigation_background_dark</item>
+    </style>
+    <style name="Widget.Design.BottomNavigationView.Text">
+        <item name="android:background">@color/sesl_bottom_navigation_background_dark</item>
+        <item name="android:paddingStart">@dimen/sesl_bottom_navigation_padding_textmode</item>
+        <item name="android:paddingEnd">@dimen/sesl_bottom_navigation_padding_textmode</item>
+        <item name="android:elevation">@dimen/sesl_bottom_navigation_elevation</item>
+        <item name="bottomTextAppearance">@style/TextAppearance.Design.Widget.BottomNavigationView.Text</item>
+        <item name="itemIconTint">@color/sesl_bottombar_text_color_dark</item>
+        <item name="itemTextColor">@color/sesl_bottombar_text_color_dark</item>
+        <item name="itemBackground">@drawable/sesl_bottom_navigation_background_text_dark</item>
+    </style>
+    <style name="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:elevation">@dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="behavior_peekHeight">-1</item>
+        <item name="behavior_hideable">true</item>
+        <item name="behavior_skipCollapsed">false</item>
+    </style>
+    <style name="Widget.Design.CollapsingToolbar">
+        <item name="android:background">@color/sesl_action_bar_background_color_dark</item>
+        <item name="statusBarScrim">?attr/colorPrimaryDark</item>
+        <item name="extendTitleTextAppearance">@style/TextAppearance.Design.CollapsingToolbar.Expanded</item>
+        <item name="extendSubTitleTextAppearance">@style/TextAppearance.Design.CollapsingToolbar.Expanded.Subtitle</item>
+        <item name="collapseTitleTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
+    </style>
+    <style name="Widget.Design.CoordinatorLayout">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="statusBarBackground">?attr/colorPrimaryDark</item>
+    </style>
+    <style name="Widget.Design.FloatingActionButton">
+        <item name="android:background">@drawable/sesl_fab_background</item>
+        <item name="elevation">@dimen/sesl_fab_elevation</item>
+        <item name="rippleColor">?attr/colorControlHighlight</item>
+        <item name="fabSize">-1</item>
+        <item name="pressedTranslationZ">@dimen/sesl_fab_translation_z_pressed</item>
+        <item name="borderWidth">@dimen/sesl_fab_border_width</item>
+        <item name="backgroundTint">?attr/colorAccent</item>
+    </style>
+    <style name="Widget.Design.Light.BottomNavigationView">
+        <item name="android:background">@color/sesl_bottom_navigation_background_light</item>
+        <item name="bottomTextAppearance">@style/TextAppearance.Design.Widget.BottomNavigationView.Inverse</item>
+        <item name="itemIconTint">@color/sesl_bottombar_icon_color_light</item>
+        <item name="itemTextColor">@color/sesl_bottombar_color_light</item>
+        <item name="itemBackground">@drawable/sesl_bottom_navigation_background</item>
+    </style>
+    <style name="Widget.Design.Light.BottomNavigationView.Text">
+        <item name="android:background">@color/sesl_bottom_navigation_background_light</item>
+        <item name="bottomTextAppearance">@style/TextAppearance.Design.Widget.BottomNavigationView.Text.Inverse</item>
+        <item name="itemIconTint">@color/sesl_bottombar_text_color_light</item>
+        <item name="itemTextColor">@color/sesl_bottombar_text_color_light</item>
+        <item name="itemBackground">@drawable/sesl_bottom_navigation_background_text</item>
+    </style>
+    <style name="Widget.Design.Light.CollapsingToolbar">
+        <item name="android:background">@color/sesl_action_bar_background_color_light</item>
+        <item name="statusBarScrim">@android:color/transparent</item>
+        <item name="extendTitleTextAppearance">@style/TextAppearance.Design.Light.CollapsingToolbar.Expanded</item>
+        <item name="extendSubTitleTextAppearance">@style/TextAppearance.Design.Light.CollapsingToolbar.Expanded.Subtitle</item>
+        <item name="collapseTitleTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse</item>
+    </style>
+    <style name="Widget.Design.NavigationView">
+        <item name="android:background">?android:attr/windowBackground</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:maxWidth">@dimen/sesl_navigation_max_width</item>
+        <item name="elevation">@dimen/sesl_navigation_elevation</item>
+    </style>
+    <style name="Widget.Design.ScrimInsetsFrameLayout">
+        <item name="insetForeground">#0000</item>
+    </style>
+    <style name="Widget.Design.Snackbar">
+        <item name="android:background">@drawable/sesl_snackbar_background</item>
+        <item name="android:paddingLeft">@dimen/sesl_snackbar_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/sesl_snackbar_padding_horizontal</item>
+        <item name="android:maxWidth">@dimen/sesl_snackbar_max_width</item>
+        <item name="android:minWidth">@dimen/sesl_snackbar_min_width</item>
+        <item name="elevation">@dimen/sesl_snackbar_elevation</item>
+        <item name="maxActionInlineWidth">@dimen/sesl_snackbar_action_inline_max_width</item>
+    </style>
+    <style name="Widget.Design.TabLayout">
+        <item name="tabMode">1</item>
+        <item name="tabGravity">@null</item>
+    </style>
+    <style name="Widget.Design.TabLayout.Dark">
+        <item name="tabBackground">@drawable/sesl_tablayout_tab_background_dark</item>
+        <item name="tabTextAppearance">@style/TextAppearance.Design.Tab.Inverse</item>
+    </style>
+    <style name="Widget.Design.TextInputLayout">
+        <item name="hintTextAppearance">@style/TextAppearance.Design.Hint</item>
+        <item name="errorTextAppearance">@style/TextAppearance.Design.Error</item>
+        <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
+        <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+        <item name="passwordToggleDrawable">@drawable/sesl_password_eye</item>
+        <item name="passwordToggleContentDescription">@string/sesl_password_toggle_content_description</item>
+        <item name="passwordToggleTint">@color/sesl_tint_password_toggle</item>
+    </style>
+    <style name="WidgetSettingRadioButton">
+        <item name="android:textSize">@dimen/widget_setting_radio_text_size</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:button">@drawable/widget_radio_button_selector</item>
+        <item name="android:fontFamily">sec-roboto-light</item>
+    </style>
+    <style name="WidgetSettingTheme">
+        <item name="android:windowBackground">@color/widget_setting_wallpaper_dim_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:radioButtonStyle">@style/WidgetSettingRadioButton</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="?0x1010586">1</item>
+    </style>
+    <style name="WorldclockAppcompat">
+    </style>
+    <style name="WorldclockCollapsingToolbar">
+    </style>
+    <style name="alarm_repeat_toggle_style">
+        <item name="android:textSize">@dimen/alarm_repeat_toggle_btn_text_size</item>
+        <item name="android:textColor">@color/repeat_btn_toggle_text_color</item>
+        <item name="android:background">@drawable/ripple_repeat_button</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_width">@dimen/alarm_repeat_toggle_width</item>
+        <item name="android:layout_height">@dimen/alarm_repeat_toggle_height</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+</resources>

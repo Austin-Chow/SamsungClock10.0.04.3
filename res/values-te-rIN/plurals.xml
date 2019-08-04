@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">అలారం %d రోజులలో ఉంది</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">అలారం %d రోజులో ఉంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">అలారం %d గంటలలో ఉంది</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">అలారం %d గంటలో ఉంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">అలారం %d నిమిషాలలో ఉంది</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">అలారం %d నిమిషంలో ఉంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">%d నిమిషాలలో</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషంలో</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

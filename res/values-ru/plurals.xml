@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">Будильник сработает через %d дня</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Будильник сработает через %d день</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Будильник сработает через %d дня</item>
+        <item quantity="many">Будильник сработает через %d дней</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">Будильник сработает через %d часа</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Будильник сработает через %d час</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Будильник сработает через %d часа</item>
+        <item quantity="many">Будильник сработает через %d часов</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">Будильник сработает через %d минуты</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Будильник сработает через %d минуту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Будильник сработает через %d минуты</item>
+        <item quantity="many">Будильник сработает через %d минут</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">Через %d минуты</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Через %d минуту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Через %d минуты</item>
+        <item quantity="many">Через %d минут</item>
+    </plurals>
+</resources>

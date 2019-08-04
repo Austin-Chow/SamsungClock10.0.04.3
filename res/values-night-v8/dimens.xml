@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="alarm_edit_tablet_window_alpha">0.8</item>
+</resources>

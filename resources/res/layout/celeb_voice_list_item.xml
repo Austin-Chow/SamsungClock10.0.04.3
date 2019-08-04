@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:focusable="false" android:clickable="false" style="@style/ListViewStyle">
+    <ViewStub android:layout_gravity="center_vertical" android:id="@+id/checkBox_stub" android:visibility="gone" android:layout="@layout/stub_checkbox_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/alarm_list_checkbox_margin"/>
+    <FrameLayout android:id="@+id/image_view" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/alarm_detail_item_textview_margin_start">
+        <ImageView android:id="@+id/preview_image" android:layout_width="40dp" android:layout_height="40dp"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/check_image" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/clock_ic_check" android:tint="@color/alarm_celebrity_check_color"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@+id/content_name" style="@style/TextStyle_1"/>
+        <TextView android:textColor="?android:attr/textColorSecondary" android:id="@+id/expired_date" style="@style/TextStyle_2"/>
+    </LinearLayout>
+</LinearLayout>

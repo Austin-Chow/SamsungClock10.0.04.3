@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sesl_abl_height_proportion">0</dimen>
+    <dimen name="sesl_dialog_min_width_major">68.36%</dimen>
+    <dimen name="sesl_dialog_min_width_major">68.36%</dimen>
+    <dimen name="sesl_dialog_min_width_major">60%</dimen>
+    <dimen name="sesl_dialog_min_width_major">37.5%</dimen>
+    <dimen name="sesl_dialog_min_width_major">25%</dimen>
+    <dimen name="sesl_dialog_min_width_minor">100%</dimen>
+    <dimen name="sesl_dialog_min_width_minor">68.36%</dimen>
+    <dimen name="sesl_dialog_min_width_minor">68.36%</dimen>
+    <dimen name="sesl_dialog_min_width_minor">68.36%</dimen>
+    <dimen name="sesl_dialog_min_width_minor">68.36%</dimen>
+</resources>

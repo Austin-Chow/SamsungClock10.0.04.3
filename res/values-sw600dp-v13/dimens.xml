@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="digital_clock_timeview_ampm_textview_margin_right">4.0dip</dimen>
+    <item type="dimen" name="timer_common_circle_vertical_bias">0.5</item>
+    <dimen name="timer_common_highcontrastkeyboard_layout_height">330.0dip</dimen>
+    <dimen name="timer_common_keypad_layout_height">270.0dip</dimen>
+    <dimen name="timer_common_multiwindow_phase_2">470.0dip</dimen>
+    <dimen name="widget_setting_seek_bar_margin_bottom">40.0dip</dimen>
+    <dimen name="sesl_config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="stopwatch_common_timeview_layout_expand_height">401.0dip</dimen>
+    <dimen name="stopwatch_laptime_margin_top">46.0dip</dimen>
+    <dimen name="stopwatch_laptime_textsize">25.0sp</dimen>
+    <dimen name="stopwatch_list_index_time_text_size">17.0sp</dimen>
+    <dimen name="stopwatch_listview_line_height">50.0dip</dimen>
+    <dimen name="stopwatch_time_period_textview_width">14.0dip</dimen>
+    <dimen name="stopwatch_time_textview_width">35.0dip</dimen>
+    <dimen name="worldclock_city_textsize">14.0sp</dimen>
+    <dimen name="worldclock_city_timesize">12.0dip</dimen>
+    <dimen name="worldclock_current_location_icon_width">17.0dip</dimen>
+    <dimen name="worldclock_normal_icon_width">10.0dip</dimen>
+    <dimen name="worldclock_selected_icon_width">10.0dip</dimen>
+    <dimen name="worldclock_start_earth_size">603.0dip</dimen>
+    <dimen name="worldclock_under_selection_icon_width">17.0dip</dimen>
+    <dimen name="worldclock_under_selection_textsize">14.0sp</dimen>
+    <item type="dimen" name="worldclock_zoom_multiplier">1.15</item>
+    <dimen name="dualclock_widget_ampm_text_size">20.0dip</dimen>
+    <dimen name="dualclock_widget_city_text_size">18.0dip</dimen>
+    <dimen name="dualclock_widget_date_text_size">20.0dip</dimen>
+    <dimen name="dualclock_widget_time_text_size">58.0dip</dimen>
+    <dimen name="alarm_popup_ampm_text_size">17.0dip</dimen>
+    <dimen name="clock_hun_button_textview_textsize">16.0sp</dimen>
+    <item type="dimen" name="alarm_snooze_btn_weight">2.0</item>
+    <item type="dimen" name="alarm_weather_cplogo_weight">1.0</item>
+    <dimen name="alarm_alert_layout_snoozebtn_height">40.0dip</dimen>
+    <dimen name="alarm_alert_layout_snoozebtn_width">106.0dip</dimen>
+    <dimen name="alarm_ampm_text_size">29.0dip</dimen>
+    <dimen name="alarm_current_date_text_size">20.0dip</dimen>
+    <dimen name="alarm_current_time_text_size">64.0dip</dimen>
+    <dimen name="alarm_margin_ampm_text">6.0dip</dimen>
+    <dimen name="alarm_margin_current_date_top">-7.0dip</dimen>
+    <dimen name="alarm_margin_current_time_top">0.0dip</dimen>
+    <dimen name="alarm_name_popup_text_size">14.0sp</dimen>
+    <dimen name="alarm_snooze_button_radius_size">22.0dip</dimen>
+    <dimen name="alarm_snooze_text_size">17.0sp</dimen>
+    <dimen name="alarm_tap_circle_size">105.0dip</dimen>
+    <dimen name="alarm_title_text_size">29.0dip</dimen>
+    <dimen name="alarm_winset_listview_padding_top_bottom">15.0dip</dimen>
+    <dimen name="clock_alert_press_circle_size">303.0dip</dimen>
+    <dimen name="clock_hun_layout_alert_name_text_margin_top">2.0dip</dimen>
+    <dimen name="clock_hun_layout_ringicon_margin_end">6.0dip</dimen>
+    <dimen name="clock_hun_layout_ringicon_margin_top">17.0dip</dimen>
+    <dimen name="clock_list_floating_button_size">60.0dip</dimen>
+    <dimen name="clock_smart_tips_margin_top">43.0dip</dimen>
+    <dimen name="clock_winset_dialog_padding_top_bottom">17.5dip</dimen>
+    <dimen name="clock_winset_listview_padding_top_bottom">15.0dip</dimen>
+    <dimen name="list_floating_button_margin_size">32.0dip</dimen>
+    <dimen name="sesl_date_picker_dialog_min_width">608.0dip</dimen>
+    <dimen name="sesl_navigation_max_width">320.0dip</dimen>
+    <dimen name="sesl_search_plate_height">44.0dip</dimen>
+    <dimen name="sesl_search_plate_radius_size">22.0dip</dimen>
+    <dimen name="sesl_search_view_preferred_height">56.0dip</dimen>
+    <dimen name="sesl_snackbar_action_inline_max_width">0.0dip</dimen>
+    <dimen name="sesl_snackbar_background_corner_radius">2.0dip</dimen>
+    <dimen name="sesl_snackbar_extra_spacing_horizontal">24.0dip</dimen>
+    <dimen name="sesl_snackbar_max_width">576.0dip</dimen>
+    <dimen name="sesl_snackbar_min_width">320.0dip</dimen>
+    <item type="dimen" name="sesl_snackbar_padding_vertical_2lines">@dimen/sesl_snackbar_padding_vertical</item>
+    <dimen name="sesl_tab_scrollable_min_width">160.0dip</dimen>
+    <dimen name="sesl_time_picker_dialog_min_width">608.0dip</dimen>
+    <dimen name="stopwatch_time_textview_textsize">60.0dip</dimen>
+    <dimen name="timer_alert_restart_stroke">2.0dip</dimen>
+    <dimen name="timer_common_preset_item_height">110.0dip</dimen>
+    <dimen name="timer_common_preset_item_width">110.0dip</dimen>
+    <dimen name="widget_setting_actionbar_height">56.0dip</dimen>
+    <dimen name="worldclock_balloon_marker_text_gap">4.0px</dimen>
+    <dimen name="worldclock_reveal_earth_size">819.0dip</dimen>
+    <dimen name="worldclock_timezone_convertor_picker_width">572.0dip</dimen>
+    <dimen name="widget_setting_preview_margin_bottom">74.0dip</dimen>
+    <dimen name="widget_setting_label_text_size">13.0sp</dimen>
+    <item type="dimen" name="full_alert_top_layout_height_percent_tablet">0.48</item>
+    <item type="dimen" name="full_alert_top_layout_width_percent_tablet">0.85</item>
+</resources>

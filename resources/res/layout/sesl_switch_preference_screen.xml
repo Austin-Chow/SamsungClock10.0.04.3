@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:background="?attr/listChoiceBackgroundIndicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/listPreferredItemHeightSmall" android:paddingStart="?android:attr/listPreferredItemPaddingStart">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/icon_frame" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/sesl_preference_item_icon_size" android:maxHeight="@dimen/sesl_preference_item_icon_size" android:paddingEnd="16dp"/>
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="@dimen/sesl_preference_item_padding_vertical" android:paddingBottom="@dimen/sesl_preference_item_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textAppearance="?attr/textAppearanceListItem" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="5" android:textAlignment="viewStart" android:paddingEnd="12dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:textAlignment="viewStart" android:paddingEnd="12dp" android:layout_alignStart="@android:id/title"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="32dp"/>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.design.widget.AppBarLayout android:layout_width="match_parent" android:layout_height="match_parent" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@+id/collapsing_toolbar" android:layout_width="match_parent" android:layout_height="match_parent" app:title="@string/alarm_sound" app:layout_scrollFlags="3" app:toolbarId="@+id/toolbar" style="@style/ClockCollapsingToolbarLayoutStyle">
+            <android.support.v7.widget.Toolbar android:layout_gravity="bottom" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:title="@string/alarm_sound" app:popupTheme="@style/ClockThemeAppCompat" app:layout_collapseMode="1"/>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:nestedScrollingEnabled="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/alarm_volume_bar" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+                <com.sec.android.app.clockpackage.common.view.ClockSubAppBar android:id="@+id/sub_appbar_layout" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ScrollView android:id="@+id/scrollView" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" android:nestedScrollingEnabled="true">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/alarm_sound_body" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bixby_box" android:background="@drawable/common_detail_list_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="optionClicked">
+                            <RadioButton android:id="@+id/bixby_radio_button" style="@style/AlarmSoundRadio"/>
+                            <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/alarm_sound_bixby_celeb_box_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+                                <TextView android:id="@+id/bixby_radio_title" android:text="@string/alarm_bixby_alarm" style="@style/AlarmSoundRadioTitle"/>
+                                <TextView android:id="@+id/bixby_description" android:text="@string/alarm_bixby_description" style="@style/AlarmSoundDescription"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@+id/bixby_subheader_line" style="@style/AlarmSoundHeaderLine"/>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/voice_box" android:background="@drawable/common_detail_list_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="optionClicked">
+                            <RadioButton android:id="@+id/voice_radio_button" style="@style/AlarmSoundRadio"/>
+                            <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/alarm_sound_bixby_celeb_box_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+                                <TextView android:id="@+id/voice_radio_title" android:text="@string/alarm_celebrity_alarm" style="@style/AlarmSoundRadioTitle"/>
+                                <TextView android:id="@+id/voice_description" android:text="@string/alarm_celeb_voice_description" style="@style/AlarmSoundDescription"/>
+                                <LinearLayout android:id="@+id/voice_weather_logo_layout" style="@style/WeatherLogoLayout">
+                                    <TextView android:text="@string/powered_by" style="@style/WeatherLogoText"/>
+                                    <ImageView android:id="@+id/voice_weather_logo" style="@style/WeatherLogoImage"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@+id/voice_line" style="@style/AlarmSoundLine"/>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/selected_voice_box" android:background="@drawable/common_detail_list_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="optionClicked" android:paddingStart="@dimen/alarm_sound_voice_item_start_padding" android:paddingEnd="0dp" android:paddingVertical="@dimen/alarm_winset_listview_padding_top_bottom" style="@style/ListViewStyle">
+                            <TextView android:id="@+id/selected_voice_subject" android:text="@string/alarm_celeb_voice_selected_voice" style="@style/AlarmSoundMainText"/>
+                            <TextView android:id="@+id/selected_voice_value" style="@style/AlarmSoundSubText"/>
+                        </LinearLayout>
+                        <View android:id="@+id/voice_subheader_line" style="@style/AlarmSoundHeaderLine"/>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ringtone_radio_box" android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="optionClicked" style="@style/ListViewStyle">
+                            <RadioButton android:id="@+id/ringtone_radio_button" style="@style/AlarmSoundRadio"/>
+                            <TextView android:id="@+id/ringtone_radio_title" android:text="@string/ringtone" android:importantForAccessibility="no" android:layout_marginStart="0dp" style="@style/TextStyle_1"/>
+                        </LinearLayout>
+                        <View android:id="@+id/alarm_ringtone_line" style="@style/AlarmSoundLine"/>
+                        <LinearLayout android:orientation="horizontal" android:id="@+id/alarm_tone_box" android:visibility="visible" android:baselineAligned="false" android:onClick="optionClicked" android:paddingVertical="0dp" style="@style/ListViewStyle">
+                            <LinearLayout android:orientation="vertical" android:id="@+id/alarm_tone_layout" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="@dimen/alarm_sound_ringtone_item_start_padding" android:paddingEnd="0dp">
+                                <TextView android:id="@+id/alarm_tone_subject" android:paddingTop="@dimen/alarm_winset_listview_padding_top_bottom" android:text="@string/selected_ringtone" style="@style/TextStyle_1"/>
+                                <TextView android:textColor="@color/alarm_detail_sub_text_color" android:id="@+id/alarm_tone_text" android:paddingBottom="@dimen/alarm_winset_listview_padding_top_bottom" android:layout_marginStart="@dimen/alarm_detail_item_textview_margin_start" android:layout_marginEnd="@dimen/alarm_detail_item_switch_margin_start" style="@style/TextStyle_2"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@+id/alarm_tone_line" style="@style/AlarmSoundLine"/>
+                        <LinearLayout android:orientation="horizontal" android:id="@+id/alarm_tts_box" android:visibility="visible" android:soundEffectsEnabled="false" android:onClick="optionClicked" android:paddingVertical="0dp" style="@style/ListViewStyle">
+                            <LinearLayout android:orientation="vertical" android:id="@+id/alarm_tts_layout" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="@dimen/alarm_sound_ringtone_item_start_padding" android:paddingEnd="0dp">
+                                <TextView android:id="@+id/alarm_tts_subject" android:paddingTop="@dimen/alarm_winset_listview_padding_top_bottom" android:text="@string/alarm_tts" style="@style/TextStyle_1"/>
+                                <TextView android:textColor="?android:attr/textColorSecondary" android:id="@+id/alarm_tts_value" android:paddingBottom="@dimen/alarm_winset_listview_padding_top_bottom" android:text="@string/alarm_tts_sub" android:maxLines="3" android:layout_marginEnd="@dimen/alarm_detail_item_switch_margin_start" style="@style/TextStyle_2"/>
+                            </LinearLayout>
+                            <Switch android:gravity="center_vertical" android:id="@+id/alarm_tts_switch" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:checked="false" android:contentDescription="@string/alarm_tts" android:paddingStart="0dp" android:paddingEnd="@dimen/alarm_detail_item_textview_margin_end"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+                <View android:id="@+id/dummy" android:background="@color/alarm_dummy_background_color" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+            </LinearLayout>
+            <com.sec.android.app.clockpackage.common.view.VolumeBar android:id="@+id/alarm_volume_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

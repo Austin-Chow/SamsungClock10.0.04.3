@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">Signalas po %d d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Signalas po %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Signalas po %d d.</item>
+        <item quantity="many">Signalas po %d d.</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">Signalas po %d val.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Signalas po %d val.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Signalas po %d val.</item>
+        <item quantity="many">Signalas po %d val.</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">Signalas po %d min.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Signalas po %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Signalas po %d min.</item>
+        <item quantity="many">Signalas po %d min.</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">Po %d min.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Po %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Po %d min.</item>
+        <item quantity="many">Po %d min.</item>
+    </plurals>
+</resources>

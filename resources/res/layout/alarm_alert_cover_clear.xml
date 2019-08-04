@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/cover_clear_bg_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/clear_cover_top_icon" android:paddingHorizontal="@dimen/full_alert_top_icon_padding_start_clear_cover" app:layout_constraintBottom_toTopOf="@+id/clear_cover_top_layout" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/FullAlertTopIcon"/>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/clear_cover_top_layout" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/cc_tab_selector" app:layout_constraintTop_toBottomOf="@+id/clear_cover_top_icon" app:layout_constraintVertical_weight="8">
+        <RelativeLayout android:id="@+id/alarm_cover_clear_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <RelativeLayout android:id="@+id/timer_cover_clear_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <com.sec.android.app.clockpackage.commonalert.view.AlertSlidingTab android:orientation="horizontal" android:id="@+id/cc_tab_selector" android:tag="clear_cover_alert" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/clear_cover_bottom_layout" app:layout_constraintTop_toBottomOf="@+id/clear_cover_top_layout" app:layout_constraintVertical_weight="4"/>
+    <RelativeLayout android:id="@+id/clear_cover_bottom_layout" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/cc_tab_selector" app:layout_constraintVertical_weight="1">
+        <RelativeLayout android:id="@+id/alarm_weather_cp_logo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/alert_weather_logo_layout_height">
+            <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/alarm_powered_by_text_and_cp_logo_layout"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

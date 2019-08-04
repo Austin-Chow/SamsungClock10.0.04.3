@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Сігнал праз %d дзён</item>
+        <item>N/A</item>
+        <item>Сігнал праз %d дзень</item>
+        <item>N/A</item>
+        <item>Сігнал праз %d дні</item>
+        <item>Сігнал праз %d дзён</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Сігнал праз %d гадзін</item>
+        <item>N/A</item>
+        <item>Сігнал праз %d гадзіну</item>
+        <item>N/A</item>
+        <item>Сігнал праз %d гадзіны</item>
+        <item>Сігнал праз %d гадзін</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Сігнал праз %d хвілін</item>
+        <item>N/A</item>
+        <item>Сігнал праз %d хвіліну</item>
+        <item>N/A</item>
+        <item>Сігнал праз %d хвіліны</item>
+        <item>Сігнал праз %d хвілін</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>Праз %d хвілін</item>
+        <item>N/A</item>
+        <item>Праз %d хвіліну</item>
+        <item>N/A</item>
+        <item>Праз %d хвіліны</item>
+        <item>Праз %d хвілін</item>
+    </plurals>
+</resources>

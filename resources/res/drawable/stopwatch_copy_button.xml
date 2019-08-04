@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <layer-list>
+            <item android:top="0dp" android:right="0dp">
+                <shape>
+                    <corners android:radius="@dimen/stopwatch_list_copypopup_radius"/>
+                    <solid android:color="@color/white"/>
+                </shape>
+            </item>
+            <item android:left="0dp" android:bottom="0dp">
+                <shape>
+                    <corners android:radius="@dimen/stopwatch_list_copypopup_radius"/>
+                    <stroke android:width="0.5dp" android:color="#c7c7c7"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Ойготкуч %d күндө иштейт</item>
+        <item>N/A</item>
+        <item>Ойготкуч %d күндөн кийин</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Ойготкуч %d саатта иштейт</item>
+        <item>N/A</item>
+        <item>Ойготкуч %d сааттан кийин</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Ойготкуч %d мүнөттө иштейт</item>
+        <item>N/A</item>
+        <item>Ойготкуч %d мүнөттөн кийин</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>%d мүнөт ичинде</item>
+        <item>N/A</item>
+        <item>%d мүнөт ичинде</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>התראה בעוד %d ימים</item>
+        <item>N/A</item>
+        <item>התראה בעוד %d יום</item>
+        <item>התראה בעוד %d ימים</item>
+        <item>N/A</item>
+        <item>התראה בעוד %d ימים</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>התראה בעוד %d שעות</item>
+        <item>N/A</item>
+        <item>התראה בעוד %d שעה</item>
+        <item>התראה בעוד %d שעות</item>
+        <item>N/A</item>
+        <item>התראה בעוד %d שעות</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>התראה בעוד %d דקות</item>
+        <item>N/A</item>
+        <item>התראה בעוד %d דקה</item>
+        <item>התראה בעוד %d דקות</item>
+        <item>N/A</item>
+        <item>התראה בעוד %d דקות</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>בעוד %d דקות</item>
+        <item>N/A</item>
+        <item>בעוד %d דקה</item>
+        <item>בעוד %d דקות</item>
+        <item>N/A</item>
+        <item>בעוד %d דקות</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:paddingTop="@dimen/sesl_date_picker_dialog_padding_top" android:paddingBottom="@dimen/sesl_date_picker_dialog_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="@dimen/sesl_date_picker_dialog_min_width" android:minHeight="@dimen/sesl_date_picker_dialog_min_height">
+    <android.support.v7.widget.SeslDatePicker android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/sesl_datePicker" android:layout_width="match_parent" android:layout_height="wrap_content" android:spinnersShown="true" android:calendarViewShown="false"/>
+</LinearLayout>

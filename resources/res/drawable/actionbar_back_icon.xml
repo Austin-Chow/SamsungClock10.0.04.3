@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:start="12dp">
+        <bitmap android:src="@drawable/tw_ic_ab_back_mtrl" android:autoMirrored="true"/>
+    </item>
+</layer-list>

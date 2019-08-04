@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">Будильник спрацює через %d дня</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Будильник спрацює через %d день</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Будильник спрацює через %d дні</item>
+        <item quantity="many">Будильник спрацює через %d днів</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">Будильник спрацює через %d години</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Будильник спрацює через %d годину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Будильник спрацює через %d години</item>
+        <item quantity="many">Будильник спрацює через %d годин</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">Будильник спрацює через %d хвилини</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Будильник спрацює через %d хвилину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Будильник спрацює через %d хвилини</item>
+        <item quantity="many">Будильник спрацює через %d хвилин</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">Через %d хвилини</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Через %d хвилину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Через %d хвилини</item>
+        <item quantity="many">Через %d хвилин</item>
+    </plurals>
+</resources>

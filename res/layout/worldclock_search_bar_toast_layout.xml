@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/worldclock_search_bar_current_location_toast" android:paddingTop="@dimen/worldclock_toast_layout_padding_top" android:paddingBottom="@dimen/worldclock_toast_layout_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="@dimen/worldclock_toast_layout_elevation" android:paddingHorizontal="@dimen/worldclock_toast_layout_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/worldclock_toast_text_size" android:textColor="@color/worldclock_search_textcolor" android:id="@id/toast_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+</LinearLayout>

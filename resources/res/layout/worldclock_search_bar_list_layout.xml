@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/dropdown_list_layout" android:background="@drawable/window_content_area_for_clocktheme" android:focusable="false" android:visibility="visible" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/worldclock_search_searchbox_layout_height_include_margin_bottom">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/dropdown_list_view" android:focusable="true" android:nextFocusUp="@+id/worldclock_search_map_txt_find" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false"/>
+        <View android:id="@+id/dummy" android:background="@color/window_background_color" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/clock_noitem_textview_textsize" android:textColor="@color/worldclock_no_result_textcolor" android:gravity="center" android:id="@+id/no_city_text" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/wc_no_result" android:fontFamily="sec-roboto-light" android:layout_marginHorizontal="3dp"/>
+</FrameLayout>

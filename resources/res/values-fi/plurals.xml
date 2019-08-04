@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Hälytys %d päivän kuluttua</item>
+        <item>N/A</item>
+        <item>Hälytys %d päivän kuluttua</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Hälytys %d tunnin kuluttua</item>
+        <item>N/A</item>
+        <item>Hälytys %d tunnin kuluttua</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Hälytys %d minuutin kuluttua</item>
+        <item>N/A</item>
+        <item>Hälytys %d minuutin kuluttua</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>%d minuutin kuluttua</item>
+        <item>N/A</item>
+        <item>%d minuutin kuluttua</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

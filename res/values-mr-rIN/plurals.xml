@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">%d दिवसांत अलार्म</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d दिवसात अलार्म</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">%d तासांत अलार्म</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d तासात अलार्म</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">%d मिनीटांत अलार्म</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d मिनिटात अलार्म</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">%d मिनिटांत</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d मिनिटात</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

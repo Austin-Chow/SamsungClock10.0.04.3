@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/image_view" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/alarm_detail_item_textview_margin_start">
+        <ImageView android:id="@id/preview_image" android:duplicateParentState="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/bixby" />
+        <ImageView android:layout_gravity="center" android:id="@id/check_image" android:visibility="gone" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/clock_ic_check" android:tint="@color/alarm_celebrity_check_color" />
+    </FrameLayout>
+    <TextView android:gravity="center_vertical" android:id="@id/content_name" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:text="@string/bixby" style="@style/TextStyle_1" />
+</LinearLayout>

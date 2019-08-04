@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">სიგნალი ჩაირთვება %d დღეში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">სიგნალი ჩაირთვება %d დღეში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">სიგნალი ჩაირთვება %d საათში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">სიგნალი ჩაირთვება %d საათში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">სიგნალი ჩაირთვება %d წუთში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">სიგნალი ჩაირთვება %d წუთში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">%d წუთში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წუთში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>অ্যালার্ম %d দিন পরে</item>
+        <item>N/A</item>
+        <item>অ্যালার্ম %d দিন পরে</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>অ্যালার্ম %d ঘন্টা পরে</item>
+        <item>N/A</item>
+        <item>অ্যালার্ম %d ঘন্টা পরে</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>অ্যালার্ম %d মিনিট পরে</item>
+        <item>N/A</item>
+        <item>অ্যালার্ম %d মিনিট পরে</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>%d মিনিট পরে</item>
+        <item>N/A</item>
+        <item>%d মিনিট পরে</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

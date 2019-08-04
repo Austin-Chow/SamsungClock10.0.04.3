@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alarm_widget_ampm_ko_margin_end">4.0dip</dimen>
+    <dimen name="alarm_widget_ampm_ko_text_size">20.0dip</dimen>
+    <dimen name="alarm_widget_ampm_margin_start">4.0dip</dimen>
+    <dimen name="alarm_widget_ampm_text_size">20.0dip</dimen>
+    <dimen name="alarm_widget_date_text_size">18.0dip</dimen>
+    <dimen name="alarm_widget_days_text_size">18.0dip</dimen>
+    <dimen name="alarm_widget_item_margin_start">15.0dip</dimen>
+    <dimen name="alarm_widget_name_text_size">18.0dip</dimen>
+    <dimen name="alarm_widget_time_text_size">58.0dip</dimen>
+    <dimen name="timer_common_highcontrastkeyboard_layout_height">380.0dip</dimen>
+    <dimen name="timer_common_keypad_layout_height">320.0dip</dimen>
+    <dimen name="stopwatch_common_timeview_layout_expand_height">402.0dip</dimen>
+    <dimen name="stopwatch_laptime_margin_top">6.0dip</dimen>
+    <dimen name="alarm_widget_onoff_btn_height">111.0dip</dimen>
+    <dimen name="alarm_widget_onoff_btn_width">64.0dip</dimen>
+    <dimen name="alarm_widget_ampm_margin_bottom">10.0dip</dimen>
+    <dimen name="dualclock_widget_ampm_text_size">20.0dip</dimen>
+    <dimen name="dualclock_widget_city_text_size">20.0dip</dimen>
+    <dimen name="dualclock_widget_date_text_size">20.0dip</dimen>
+    <dimen name="dualclock_widget_time_text_size">58.0dip</dimen>
+    <dimen name="alarm_popup_ampm_text_size">17.0dip</dimen>
+    <dimen name="alarm_widget_3rdparty_days_text_size">18.0dip</dimen>
+    <dimen name="alarm_widget_3rdparty_time_text_size">58.0dip</dimen>
+    <dimen name="clock_hun_button_textview_textsize">16.0sp</dimen>
+    <dimen name="stopwatch_laptime_period_textview_width">9.0dip</dimen>
+    <dimen name="stopwatch_list_copypopup_imageview_height">32.0dip</dimen>
+    <dimen name="stopwatch_list_copypopup_imageview_margin_top">9.0dip</dimen>
+    <dimen name="stopwatch_list_copypopup_layout_height">72.0dip</dimen>
+    <dimen name="stopwatch_list_copypopup_layout_width">86.0dip</dimen>
+    <dimen name="stopwatch_list_copypopup_textview_textsize">14.0dip</dimen>
+    <dimen name="stopwatch_list_divider_dividerHeight">1.0px</dimen>
+    <dimen name="widget_no_item_textsize">18.0dip</dimen>
+</resources>

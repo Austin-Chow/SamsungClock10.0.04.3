@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>الارم %d دنوں میں بجے گا</item>
+        <item>N/A</item>
+        <item>الارم %d دن میں بجے گا</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>الارم %d گھنٹوں میں ختم ہوگا</item>
+        <item>N/A</item>
+        <item>الارم %d گھنٹہ میں ختم ہو گا</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>الارم %d منٹس میں شروع ہوگا</item>
+        <item>N/A</item>
+        <item>الارم %d منٹ میں شروع ہوگا</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>%d منٹ میں</item>
+        <item>N/A</item>
+        <item>%d منٹ میں</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

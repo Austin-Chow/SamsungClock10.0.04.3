@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/worldclock_weather_setting_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:id="@+id/worldclock_weather_setting_app_bar" android:layout_width="match_parent" android:layout_height="match_parent" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@+id/worldclock_weather_setting_collapsing_toolbar" android:layout_width="match_parent" android:layout_height="match_parent" app:title="@string/worldclock_weather_information" app:layout_scrollFlags="3" app:toolbarId="@+id/worldclock_weather_setting_toolbar" style="@style/ClockCollapsingToolbarLayoutStyle">
+            <android.support.v7.widget.Toolbar android:layout_gravity="bottom" android:id="@+id/worldclock_weather_setting_toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:title="@string/worldclock_weather_information" app:layout_collapseMode="1" app:theme="@style/ClockThemeAppCompat"/>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/worldclock_weather_setting_root" android:background="@color/window_background_color" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+        <android.support.v4.widget.NestedScrollView android:id="@+id/nestedScroll" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/worldclock_list_background" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+                <com.sec.android.app.clockpackage.common.view.ClockSubAppBar android:id="@+id/sub_appbar_layout" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ListCategoryText">
+                        <TextView android:id="@+id/weather_description" android:text="@string/weather_discription" style="@style/DescriptionStyle"/>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/unit_layout" android:background="@drawable/worldclock_weather_setting_unit_ripple" android:paddingTop="@dimen/clock_winset_listview_padding_top_bottom" android:paddingBottom="@dimen/clock_winset_listview_padding_top_bottom" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+                            <TextView android:id="@+id/unit_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weather_unit" style="@style/ListPrimaryTextStyle"/>
+                            <TextView android:textAppearance="?android:attr/textAppearanceListItemSecondary" android:textSize="@dimen/worldclock_weather_unit_secondarytext_textview_textsize" android:textColor="@color/primary_dark_color" android:id="@+id/unit_secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

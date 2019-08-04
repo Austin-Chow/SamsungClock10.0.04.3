@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">Budík za %d dní</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Budík za %d deň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Budík za %d dni</item>
+        <item quantity="many">Budík za %d dňa</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">Budík za %d hodín</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Budík za %d hodinu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Budík za %d hodiny</item>
+        <item quantity="many">Budík za %d hodiny</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">Budík za %d minút</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Budík za %d minútu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Budík za %d minúty</item>
+        <item quantity="many">Budík za %d minúty</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">Za %d minút</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za %d minútu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za %d minúty</item>
+        <item quantity="many">Za %d minúty</item>
+    </plurals>
+</resources>

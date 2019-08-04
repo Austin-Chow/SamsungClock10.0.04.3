@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.clockpackage.alarm.view.AlarmListView android:id="@id/alarm_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/alarm_app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.Design.AppBarLayout">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:toolbarId="@id/toolbar" style="@style/ClockCollapsingToolbarLayoutStyle">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/alarm_app_bar_text" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/alarm_appbar_main_title_margin" android:layout_marginEnd="@dimen/alarm_appbar_main_title_margin" app:layout_isTitleCustom="true">
+                <TextView android:gravity="center" android:id="@id/alarm_app_bar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/alarm_appbar_title_marginBottom" style="@style/ClockDesignCollapsingToolbarTitle" />
+                <TextView android:gravity="center" android:id="@id/alarm_app_bar_subtitle" android:paddingBottom="@dimen/alarm_appbar_sub_title_paddingBottom" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ClockDesignCollapsingToolbarSubtitle" />
+            </LinearLayout>
+            <android.support.v7.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:title="@string/alarm" app:popupTheme="@style/ClockThemeAppCompat" app:layout_collapseMode="pin" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+        <android.support.v7.widget.RecyclerView android:layout_gravity="center|top" android:id="@id/alarm_list" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:importantForAccessibility="no" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+        <ViewStub android:layout_gravity="center|top" android:id="@id/no_alarm_add_button_stub" android:layout="@layout/alarm_add_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</com.sec.android.app.clockpackage.alarm.view.AlarmListView>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:src="@drawable/tw_ic_ab_add_mtrl_icon" android:tint="@color/primary_menu_color" android:autoMirrored="true"/>

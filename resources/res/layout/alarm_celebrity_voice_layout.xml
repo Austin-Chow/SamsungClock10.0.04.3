@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout android:orientation="vertical" android:id="@+id/coordinator" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_layout" android:layout_alignParentTop="true">
+        <android.support.design.widget.AppBarLayout android:id="@+id/app_bar_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+            <android.support.design.widget.CollapsingToolbarLayout android:id="@+id/collapsing_toolbar" android:layout_width="match_parent" android:layout_height="match_parent" app:title="@string/alarm_celeb_voice_selected_voice" app:layout_scrollFlags="3" app:toolbarId="@+id/toolbar" style="@style/ClockCollapsingToolbarLayoutStyle">
+                <android.support.v7.widget.Toolbar android:layout_gravity="bottom" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:title="@string/alarm_celeb_voice_selected_voice" app:popupTheme="@style/ClockThemeAppCompat" app:layout_collapseMode="1"/>
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+        <android.support.v4.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="true">
+                <TextView android:id="@+id/description" android:background="@color/window_background_color" android:paddingTop="12dp" android:paddingBottom="16dp" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/alarm_bixby_celeb_description" style="@style/DescriptionStyle"/>
+                <com.sec.android.app.clockpackage.alarm.view.AlarmCelebrityListView android:id="@+id/celebrity_list" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:headerDividersEnabled="true" android:footerDividersEnabled="true" android:importantForAccessibility="no"/>
+                <View android:id="@+id/dummy" android:background="@color/alarm_dummy_background_color" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.design.widget.CoordinatorLayout>
+    <RelativeLayout android:id="@+id/bottom_layout" android:background="@color/window_background_color" android:layout_width="match_parent" android:layout_height="@dimen/alarm_edit_bottom_bar_height" android:layout_alignParentBottom="true">
+        <com.sec.android.app.clockpackage.common.view.VolumeBar android:id="@+id/alarm_volume_bar" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <android.support.design.widget.BottomNavigationView android:id="@+id/bottom_navigation" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:menu="@menu/alarm_celeb_bottom_menu" style="@style/ActionModeBottomBarStyle"/>
+    </RelativeLayout>
+</RelativeLayout>

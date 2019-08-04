@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Sveglia tra %d giorni</item>
+        <item>N/A</item>
+        <item>Sveglia tra %d giorno</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Sveglia tra %d ore</item>
+        <item>N/A</item>
+        <item>Sveglia tra %d ora</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Sveglia tra %d minuti</item>
+        <item>N/A</item>
+        <item>Sveglia tra %d minuto</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>Tra %d minuti</item>
+        <item>N/A</item>
+        <item>Tra %d minuto</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

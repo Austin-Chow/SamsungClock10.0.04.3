@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:src="@drawable/tw_ic_ab_back_mtrl" android:tint="@color/alarm_actionbar_back_icon_tint_color" android:autoMirrored="true"/>

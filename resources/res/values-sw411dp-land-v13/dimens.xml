@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="timer_common_highcontrastkeyboard_layout_height">32dp</dimen>
+    <dimen name="timer_common_keypad_layout_height">32dp</dimen>
+    <dimen name="widget_setting_bottom_right_width">411dp</dimen>
+    <dimen name="widget_setting_preview_height">275dp</dimen>
+    <dimen name="widget_setting_preview_margin_bottom">31dp</dimen>
+    <dimen name="widget_setting_preview_margin_start">24dp</dimen>
+    <dimen name="widget_setting_preview_margin_top">14dp</dimen>
+    <dimen name="widget_setting_preview_width">329dp</dimen>
+</resources>

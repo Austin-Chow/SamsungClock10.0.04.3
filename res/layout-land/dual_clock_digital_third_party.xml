@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dual_clock_widget_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <LinearLayout android:gravity="center" android:layout_gravity="start" android:orientation="horizontal" android:id="@id/first_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/first_city_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dualclock_layout_margin_start_end" android:layout_toStartOf="@id/first_layout_land">
+                    <TextView android:id="@id/first_city_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CityTextStyle" />
+                    <TextClock android:id="@id/date_text_first" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="@string/widget_default_date_format" android:format24Hour="@string/widget_default_date_format" style="@style/DateTextStyle" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/first_layout_land" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dualclock_textclock_margin_start" android:layout_marginEnd="@dimen/dualclock_layout_margin_start_end" android:layout_alignParentEnd="true">
+                    <TextClock android:textSize="@dimen/dualclockwidget_landscape_ampm_textsize" android:id="@id/first_ampm_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dualclock_timeview_ampm_left_textview_margin_bottom" android:layout_marginEnd="@dimen/dualclock_timeview_ampm_textview_margin_right" android:format12Hour="a" android:format24Hour="" style="@style/AmPmTextStyleLandScape" />
+                    <TextClock android:textSize="@dimen/dualclock_timeview_number_textview_textsize" android:id="@id/first_clock_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="@string/main_widget_12_hours_format" android:format24Hour="@string/clock_24_hours_format" style="@style/NumberStyle" />
+                    <TextClock android:textSize="@dimen/dualclockwidget_landscape_ampm_textsize" android:id="@id/first_ampm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dualclock_timeview_ampm_textview_margin_bottom" android:layout_marginStart="@dimen/dualclock_timeview_ampm_textview_margin_right" android:format12Hour="a" android:format24Hour="" style="@style/AmPmTextStyleLandScape" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/middle_line" android:layout_width="1.0dip" android:layout_height="fill_parent" android:paddingVertical="@dimen/dualclock_middleline_vertical_padding" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="end" android:orientation="vertical" android:id="@id/second_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/second_set_city_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dualclock_common_setcity_layout_padding_start_end" android:paddingEnd="@dimen/dualclock_common_setcity_layout_padding_start_end">
+                <TextView android:id="@id/second_set_city_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AddCityTextStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/second_city_and_clock_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/second_city_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dualclock_layout_margin_start_end" android:layout_toStartOf="@id/second_layout_land">
+                        <TextView android:id="@id/second_city_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CityTextStyle" />
+                        <TextClock android:id="@id/date_text_second" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="@string/widget_default_date_format" android:format24Hour="@string/widget_default_date_format" style="@style/DateTextStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/second_layout_land" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dualclock_textclock_margin_start" android:layout_marginEnd="@dimen/dualclock_layout_margin_start_end" android:layout_alignParentEnd="true">
+                        <TextClock android:textSize="@dimen/dualclockwidget_landscape_ampm_textsize" android:id="@id/second_ampm_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dualclock_timeview_ampm_left_textview_margin_bottom" android:layout_marginEnd="@dimen/dualclock_timeview_ampm_textview_margin_right" android:format12Hour="a" android:format24Hour="" style="@style/AmPmTextStyleLandScape" />
+                        <TextClock android:textSize="@dimen/dualclock_timeview_number_textview_textsize" android:id="@id/second_clock_text" android:padding="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="@string/main_widget_12_hours_format" android:format24Hour="@string/clock_24_hours_format" style="@style/NumberStyle" />
+                        <TextClock android:textSize="@dimen/dualclockwidget_landscape_ampm_textsize" android:id="@id/second_ampm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dualclock_timeview_ampm_left_textview_margin_bottom" android:layout_marginStart="@dimen/dualclock_timeview_ampm_textview_margin_right" android:format12Hour="a" android:format24Hour="" style="@style/AmPmTextStyleLandScape" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

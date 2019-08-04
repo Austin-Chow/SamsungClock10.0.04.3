@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backup_items>
+    <backup_item name="Alarm" contents_id="v5VJ0Ep6EE" category="CLOCK" client_impl_class="com.sec.android.app.clockpackage.backuprestore.scloud.AlarmSCloudBackupRestore" />
+    <backup_item name="WorldClock" contents_id="pYz7p28bSl" category="CLOCK" client_impl_class="com.sec.android.app.clockpackage.backuprestore.scloud.WorldclockSCloudBackupRestore" />
+    <backup_item name="TIMER" quick_backup="true" contents_id="8atzPhYZaE" category="CLOCK" client_impl_class="com.sec.android.app.clockpackage.backuprestore.receiver.ClockBackupRestoreReceiver" />
+    <backup_item name="ALARMWIDGET" quick_backup="true" contents_id="I6IHHRg397" category="APPLICATIONS_HOME" client_impl_class="com.sec.android.app.clockpackage.backuprestore.scloud.AlarmWidgetSCloudBackupRestore" />
+    <backup_item name="DUALCLOCKWIDGET" quick_backup="true" contents_id="ZCms5GaCFo" category="APPLICATIONS_HOME" client_impl_class="com.sec.android.widgetapp.dualclockdigital.DualClockDigitalBackupRestoreReceiver" />
+</backup_items>

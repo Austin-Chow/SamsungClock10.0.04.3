@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alarm_widget_ampm_ko_margin_end">2dp</dimen>
+    <dimen name="alarm_widget_ampm_margin_start">2dp</dimen>
+    <dimen name="alarm_widget_ampm_text_size">12dp</dimen>
+    <dimen name="timer_common_highcontrastkeyboard_layout_height">190dp</dimen>
+    <dimen name="timer_common_keypad_layout_height">140dp</dimen>
+    <dimen name="alarm_ringtone_picker_divider_height">2px</dimen>
+    <dimen name="alarm_widget_onoff_btn_height">38dp</dimen>
+    <dimen name="alarm_widget_onoff_btn_width">38dp</dimen>
+    <dimen name="digitalclock_timeview_ampm_left_textview_margin_bottom">9dp</dimen>
+    <dimen name="digitalclock_timeview_number_textview_textsize">40dp</dimen>
+    <dimen name="dualclock_ampm_textsize">11dp</dimen>
+    <dimen name="dualclock_portrait_layout_margin_start_end">6dp</dimen>
+    <dimen name="dualclock_timeview_ampm_left_textview_margin_bottom">6.5dp</dimen>
+    <dimen name="dualclock_timeview_ampm_textview_margin_right">3dp</dimen>
+    <dimen name="stopwatch_button_width">110dp</dimen>
+    <dimen name="stopwatch_laptime_textsize">25sp</dimen>
+    <dimen name="stopwatch_laptime_textview_width">13sp</dimen>
+    <dimen name="stopwatch_list_index_time_text_size">12sp</dimen>
+    <dimen name="stopwatch_listview_line_height">40dp</dimen>
+    <dimen name="stopwatch_time_period_textview_width">16dp</dimen>
+    <dimen name="stopwatch_time_textview_width">30dp</dimen>
+    <dimen name="widget_setting_preview_margin_bottom">11dp</dimen>
+    <dimen name="widget_setting_preview_margin_start">27dp</dimen>
+    <dimen name="widget_setting_preview_margin_top">11dp</dimen>
+    <dimen name="widget_setting_label_text_size">12.5sp</dimen>
+    <dimen name="widget_setting_seek_bar_current_text_size">17sp</dimen>
+    <dimen name="widget_setting_seek_bar_height">28dp</dimen>
+    <dimen name="widget_setting_seek_bar_progress_margin_start">9dp</dimen>
+</resources>

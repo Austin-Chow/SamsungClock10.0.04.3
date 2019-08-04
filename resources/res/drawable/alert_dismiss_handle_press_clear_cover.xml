@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="oval">
+    <solid android:color="@color/alarm_cancel_tap_circle_color_clear_cover"/>
+    <size android:height="@dimen/clock_alert_press_circle_size" android:width="@dimen/clock_alert_press_circle_size"/>
+</shape>

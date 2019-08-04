@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">Alarm za %d dni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alarm za %d dzień</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Alarm za %d dni</item>
+        <item quantity="many">Alarm za %d dni</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">Alarm za %d godzin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alarm za %d godzinę</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Alarm za %d godziny</item>
+        <item quantity="many">Alarm za %d godzin</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">Alarm za %d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alarm za %d minutę</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Alarm za %d minuty</item>
+        <item quantity="many">Alarm za %d minut</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">Za %d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za %d minutę</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za %d minuty</item>
+        <item quantity="many">Za %d minut</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/widget_setting_activity" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/widget_setting_action_bar" layout="@layout/widget_setting_action_bar"/>
+    <FrameLayout android:id="@+id/widget_preview" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="@dimen/widget_setting_preview_height" android:importantForAccessibility="noHideDescendants" android:layout_marginHorizontal="@dimen/widget_setting_preview_margin_start" android:layout_marginVertical="@dimen/widget_setting_preview_margin_top"/>
+    <include android:id="@+id/widget_bottom_layout" layout="@layout/widget_setting_bottom_layout"/>
+</LinearLayout>

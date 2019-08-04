@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Alarm za %d dni</item>
+        <item>N/A</item>
+        <item>Alarm za %d dziyń</item>
+        <item>N/A</item>
+        <item>Alarm za %d dni</item>
+        <item>Alarm za %d dni</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Alarm za %d godzin</item>
+        <item>N/A</item>
+        <item>Alarm za %d godzina</item>
+        <item>N/A</item>
+        <item>Alarm za %d godziny</item>
+        <item>Alarm za %d godzin</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Alarm za %d minut</item>
+        <item>N/A</item>
+        <item>Alarm za %d minuta</item>
+        <item>N/A</item>
+        <item>Alarm za %d minuty</item>
+        <item>Alarm za %d minut</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>Za %d minut</item>
+        <item>N/A</item>
+        <item>Za %d minuta</item>
+        <item>N/A</item>
+        <item>Za %d minuty</item>
+        <item>Za %d minut</item>
+    </plurals>
+</resources>

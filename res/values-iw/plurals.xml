@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">התראה בעוד %d ימים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">התראה בעוד %d יום</item>
+        <item quantity="two">התראה בעוד %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">התראה בעוד %d ימים</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">התראה בעוד %d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">התראה בעוד %d שעה</item>
+        <item quantity="two">התראה בעוד %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">התראה בעוד %d שעות</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">התראה בעוד %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">התראה בעוד %d דקה</item>
+        <item quantity="two">התראה בעוד %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">התראה בעוד %d דקות</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">בעוד %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בעוד %d דקה</item>
+        <item quantity="two">בעוד %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בעוד %d דקות</item>
+    </plurals>
+</resources>

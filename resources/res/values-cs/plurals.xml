@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Upozornění za %d dnů</item>
+        <item>N/A</item>
+        <item>Upozornění za %d den</item>
+        <item>N/A</item>
+        <item>Upozornění za %d dny</item>
+        <item>Upozornění za %d dnů</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Upozornění za %d hodin</item>
+        <item>N/A</item>
+        <item>Upozornění za %d hodinu</item>
+        <item>N/A</item>
+        <item>Upozornění za %d hodiny</item>
+        <item>Upozornění za %d hodin</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Upozornění za %d minut</item>
+        <item>N/A</item>
+        <item>Upozornění za %d minutu</item>
+        <item>N/A</item>
+        <item>Upozornění za %d minuty</item>
+        <item>Upozornění za %d minut</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>Za %d minut</item>
+        <item>N/A</item>
+        <item>Za %d minutu</item>
+        <item>N/A</item>
+        <item>Za %d minuty</item>
+        <item>Za %d minut</item>
+    </plurals>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="alarm_timepicker_bottom_margin_weight">1.0</item>
+    <item type="dimen" name="alarm_timepicker_top_margin_weight">0.0</item>
+    <item type="dimen" name="alarm_timepicker_weight">13.0</item>
+    <dimen name="alarm_widget_ampm_ko_margin_end">3.0dip</dimen>
+    <dimen name="alarm_widget_ampm_ko_text_size">10.0dip</dimen>
+    <dimen name="alarm_widget_ampm_margin_start">3.0dip</dimen>
+    <dimen name="alarm_widget_ampm_text_size">10.0dip</dimen>
+    <dimen name="alarm_widget_date_text_size">12.0dip</dimen>
+    <dimen name="alarm_widget_days_text_size">12.0dip</dimen>
+    <dimen name="alarm_widget_full_ampm_ko_text_size">14.0dip</dimen>
+    <dimen name="alarm_widget_full_ampm_text_size">14.0dip</dimen>
+    <dimen name="alarm_widget_full_date_text_size">13.0dip</dimen>
+    <dimen name="alarm_widget_full_days_text_size">13.0dip</dimen>
+    <dimen name="alarm_widget_full_item_margin_end">12.0dip</dimen>
+    <dimen name="alarm_widget_full_item_margin_start">17.0dip</dimen>
+    <dimen name="alarm_widget_full_name_text_size">14.0dip</dimen>
+    <dimen name="alarm_widget_full_time_text_size">35.0dip</dimen>
+    <dimen name="alarm_widget_item_margin_end">12.0dip</dimen>
+    <dimen name="alarm_widget_item_margin_start">17.0dip</dimen>
+    <dimen name="alarm_widget_name_text_size">10.0dip</dimen>
+    <dimen name="alarm_widget_time_text_size">24.0dip</dimen>
+    <dimen name="analogclock_widget_date_view_text_size">16.0dip</dimen>
+    <dimen name="clockwidget_common_date_textview_textsize">11.0dip</dimen>
+    <dimen name="digital_clock_timeview_ampm_textview_margin_right">4.0dip</dimen>
+    <dimen name="digitalclock_horizontal_common_date_textview_textsize">14.0dip</dimen>
+    <dimen name="digitalclock_timeview_number_textview_textsize_horizontal">35.0dip</dimen>
+    <dimen name="sesl_color_picker_dialog_padding_bottom">23.5dip</dimen>
+    <dimen name="sesl_color_picker_dialog_padding_left">9.5dip</dimen>
+    <dimen name="sesl_color_picker_dialog_padding_right">19.0dip</dimen>
+    <dimen name="sesl_color_picker_dialog_padding_top">9.5dip</dimen>
+    <dimen name="sesl_color_picker_gradient_wheel_container_height">224.0dip</dimen>
+    <dimen name="sesl_color_picker_gradient_wheel_container_width">224.0dip</dimen>
+    <dimen name="sesl_color_picker_gradient_wheel_size">194.0dip</dimen>
+    <dimen name="sesl_color_picker_main_content_width">520.0dip</dimen>
+    <dimen name="sesl_color_picker_opacity_seekbar_background_width">257.5dip</dimen>
+    <dimen name="sesl_color_picker_opacity_seekbar_margin_top">17.0dip</dimen>
+    <dimen name="sesl_color_picker_seekbar_width">268.0dip</dimen>
+    <dimen name="sesl_color_picker_used_color_group_margin_top">23.0dip</dimen>
+    <dimen name="sesl_color_picker_used_color_group_width">260.0dip</dimen>
+    <dimen name="sesl_color_picker_used_color_item_gap_margin">8.399994dip</dimen>
+    <dimen name="sesl_color_picker_used_color_item_size">36.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_day_height">24.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_height">28.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_button_width">28.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_header_height">28.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_view_height">150.0dip</dimen>
+    <dimen name="sesl_date_picker_calendar_week_height">25.0dip</dimen>
+    <dimen name="sesl_date_picker_gap_between_header_and_weekend">2.0dip</dimen>
+    <dimen name="sesl_date_picker_gap_between_weekend_and_calender">0.0dip</dimen>
+    <dimen name="sesl_date_picker_selected_day_circle_radius">11.0dip</dimen>
+    <dimen name="stopwatch_button_layout_height">58.0dip</dimen>
+    <item type="dimen" name="stopwatch_list_index_percent">0.12</item>
+    <item type="dimen" name="stopwatch_list_laptime_percent">0.36</item>
+    <item type="dimen" name="stopwatch_list_timediff_percent">0.36</item>
+    <item type="dimen" name="stopwatch_list_vertical_guide_line">0.07</item>
+    <item type="dimen" name="timer_common_circle_vertical_bias">0.5</item>
+    <dimen name="timer_common_highcontrastkeyboard_layout_height">28.0dip</dimen>
+    <dimen name="timer_common_keypad_layout_height">28.0dip</dimen>
+    <dimen name="timer_common_multiwindow_phase_2">370.0dip</dimen>
+    <item type="dimen" name="timer_common_picker_vertical_bias">0.5</item>
+    <dimen name="timer_common_reset_button_margin_top">0.0dip</dimen>
+    <dimen name="timer_common_timepicker_layout_min_height">146.0dip</dimen>
+    <item type="dimen" name="timer_common_title_vertical_bias">0.5</item>
+    <dimen name="widget_setting_seek_bar_label_margin_bottom">0.0dip</dimen>
+    <dimen name="widget_setting_seek_bar_margin_bottom">0.0dip</dimen>
+    <dimen name="widget_setting_seek_bar_margin_top">20.0dip</dimen>
+    <dimen name="clockwidget_landscape_ampm_textsize">14.0dip</dimen>
+    <dimen name="dualclock_layout_margin_start_end">20.0dip</dimen>
+    <dimen name="dualclock_textclock_margin_start">8.0dip</dimen>
+    <dimen name="dualclockwidget_landscape_ampm_textsize">14.0dip</dimen>
+    <dimen name="sesl_app_bar_height">56.0dip</dimen>
+    <dimen name="sesl_color_picker_gradient_seekbar_margin_top">23.0dip</dimen>
+    <dimen name="sesl_color_picker_main_content_height">262.0dip</dimen>
+    <dimen name="sesl_color_picker_seeker_content_padding_bottom">16.0dip</dimen>
+    <dimen name="sesl_color_picker_seeker_content_padding_right">0.5dip</dimen>
+    <dimen name="sesl_color_picker_seeker_content_padding_top">14.5dip</dimen>
+    <dimen name="sesl_color_picker_seeker_content_width">268.0dip</dimen>
+</resources>

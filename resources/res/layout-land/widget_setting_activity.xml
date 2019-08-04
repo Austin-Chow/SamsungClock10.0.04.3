@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/widget_setting_activity" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/widget_setting_action_bar" layout="@layout/widget_setting_action_bar"/>
+    <android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+        <FrameLayout android:id="@+id/widget_preview" android:descendantFocusability="blocksDescendants" android:layout_width="@dimen/widget_setting_preview_width" android:layout_height="@dimen/widget_setting_preview_height" android:layout_marginTop="@dimen/widget_setting_preview_margin_top" android:layout_marginBottom="@dimen/widget_setting_preview_margin_bottom" android:importantForAccessibility="noHideDescendants" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/widget_bottom_layout" app:layout_constraintHorizontal_chainStyle="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <include android:id="@+id/widget_bottom_layout" android:layout_width="@dimen/widget_setting_bottom_right_width" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/widget_preview" app:layout_constraintTop_toTopOf="0" layout="@layout/widget_setting_bottom_layout"/>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

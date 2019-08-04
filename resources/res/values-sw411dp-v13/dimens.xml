@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="timer_common_highcontrastkeyboard_layout_height">270dp</dimen>
+    <dimen name="timer_common_keypad_layout_height">180dp</dimen>
+    <dimen name="stopwatch_common_timeview_layout_expand_height">552dp</dimen>
+    <dimen name="widget_setting_preview_margin_bottom">14dp</dimen>
+    <dimen name="widget_setting_preview_margin_start">34dp</dimen>
+    <dimen name="widget_setting_preview_margin_top">14dp</dimen>
+    <dimen name="widget_setting_label_text_size">16sp</dimen>
+    <dimen name="widget_setting_seek_bar_current_text_size">22sp</dimen>
+    <dimen name="widget_setting_seek_bar_height">36.5dp</dimen>
+    <dimen name="widget_setting_seek_bar_progress_margin_start">12dp</dimen>
+</resources>

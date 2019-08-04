@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>%d günə siqnal</item>
+        <item>N/A</item>
+        <item>%d günə siqnal</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>%d saata siqnal</item>
+        <item>N/A</item>
+        <item>%d saata siqnal</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>%d dəqiqəyə siqnal</item>
+        <item>N/A</item>
+        <item>%d dəqiqəyə siqnal</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>%d dəqiqəyə</item>
+        <item>N/A</item>
+        <item>%d dəqiqəyə</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

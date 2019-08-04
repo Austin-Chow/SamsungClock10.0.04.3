@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Signal %d kundan keyin</item>
+        <item>N/A</item>
+        <item>Signal %d kundan keyin</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Signal %d soatdan keyin</item>
+        <item>N/A</item>
+        <item>Signal %d soatdan keyin</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Signal %d daqiqadan keyin</item>
+        <item>N/A</item>
+        <item>Signal %d daqiqadan keyin</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>%d daqiqada</item>
+        <item>N/A</item>
+        <item>%d daqiqada</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

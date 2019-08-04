@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/description" android:paddingBottom="0.0dip" android:text="@string/alarm_bixby_description" style="@style/DescriptionStyle" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/weather_logo_layout" android:layout_width="wrap_content" android:layout_height="@dimen/worldclock_main_weather_logo_layout_height" android:layout_marginStart="?android:listPreferredItemPaddingStart">
+        <TextView android:textSize="@dimen/worldclock_cp_powered_by_textsize" android:textColor="@color/weather_cp_logo_tint_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/powered_by" android:fontFamily="sec-roboto-light" android:layout_marginEnd="@dimen/worldclock_cp_powered_by_text_margin_end" />
+        <ImageView android:id="@id/weather_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/weather_cp_logo_tint_color" android:tintMode="src_in" />
+    </LinearLayout>
+</LinearLayout>

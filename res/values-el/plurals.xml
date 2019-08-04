@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">Ξυπνητήρι σε %d ημέρες</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ξυπνητήρι σε %d ημέρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">Ξυπνητήρι σε %d ώρες</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ξυπνητήρι σε %d ώρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">Ξυπνητήρι σε %d λεπτά</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ξυπνητήρι σε %d λεπτό</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">Σε %d λεπτά</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Σε %d λεπτό</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

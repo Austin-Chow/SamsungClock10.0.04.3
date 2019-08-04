@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Märguanne %d päeva pärast</item>
+        <item>N/A</item>
+        <item>Märguanne %d päeva pärast</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Märguanne %d tunni pärast</item>
+        <item>N/A</item>
+        <item>Märguanne %d tunni pärast</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Märguanne %d minuti pärast</item>
+        <item>N/A</item>
+        <item>Märguanne %d minuti pärast</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>%d minuti pärast</item>
+        <item>N/A</item>
+        <item>%d minuti pärast</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">Signāls pēc %d dienām</item>
+        <item quantity="zero">Signāls pēc %d dienām</item>
+        <item quantity="one">Signāls pēc %d dienas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">Signāls pēc %d stundām</item>
+        <item quantity="zero">Signāls pēc %d stundām</item>
+        <item quantity="one">Signāls pēc %d stundas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">Signāls pēc %d minūtēm</item>
+        <item quantity="zero">Signāls pēc %d minūtēm</item>
+        <item quantity="one">Signāls pēc %d minūtes</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">Pēc %d minūtēm</item>
+        <item quantity="zero">Pēc %d minūtēm</item>
+        <item quantity="one">Pēc %d minūtes</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

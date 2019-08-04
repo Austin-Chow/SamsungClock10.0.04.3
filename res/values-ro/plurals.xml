@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item quantity="other">Alarmă peste %d zile</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alarmă peste %d zi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Alarmă peste %d zile</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item quantity="other">Alarmă peste %d ore</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alarmă peste %d oră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Alarmă peste %d ore</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item quantity="other">Alarmă peste %d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alarmă peste %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Alarmă peste %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item quantity="other">Peste %d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Peste %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Peste %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Aláram i gceann %d lá</item>
+        <item>N/A</item>
+        <item>Aláram i gceann %d lae</item>
+        <item>Aláram i gceann %d lá</item>
+        <item>Aláram i gceann %d lá</item>
+        <item>Aláram i gceann %d lá</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Aláram i gceann %d uair an chloig</item>
+        <item>N/A</item>
+        <item>Aláram i gceann %d uair an chloig</item>
+        <item>Aláram i gceann %d uair an chloig</item>
+        <item>Aláram i gceann %d uair an chloig</item>
+        <item>Aláram i gceann %d n-uair an chloig</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Aláram i gceann %d nóiméad</item>
+        <item>N/A</item>
+        <item>Aláram i gceann %d nóiméid</item>
+        <item>Aláram i gceann %d nóiméad</item>
+        <item>Aláram i gceann %d nóiméad</item>
+        <item>Aláram i gceann %d nóiméad</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>I gceann %d nóiméad</item>
+        <item>N/A</item>
+        <item>I gceann %d nóiméad</item>
+        <item>I gceann %d nóiméad</item>
+        <item>I gceann %d nóiméad</item>
+        <item>I gceann %d nóiméad</item>
+    </plurals>
+</resources>

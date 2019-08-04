@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/worldclock_main_coordinator" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:id="@+id/worldclock_app_bar" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.Design.AppBarLayout">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@+id/collapsing_toolbar" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_scrollFlags="3" app:toolbarId="@+id/toolbar" style="@style/ClockCollapsingToolbarLayoutStyle">
+            <com.sec.android.app.clockpackage.worldclock.viewmodel.WorldclockAppBarContentView android:theme="@style/ClockThemeAppCompat" android:id="@+id/worldclock_app_bar_title" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_isTitleCustom="true"/>
+            <android.support.v7.widget.Toolbar android:layout_gravity="bottom" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:title="@string/worldclock" app:popupTheme="@style/ClockThemeAppCompat" app:layout_collapseMode="1"/>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:nestedScrollingEnabled="true" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+        <android.support.v7.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@+id/worldclock_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="android.support.v7.widget.LinearLayoutManager"/>
+        <com.sec.android.app.clockpackage.common.view.ClockAddButton android:layout_gravity="center_horizontal" android:id="@+id/worldclock_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:text="@string/add_city"/>
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

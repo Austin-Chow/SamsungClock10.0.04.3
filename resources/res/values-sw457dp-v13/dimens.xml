@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alarm_widget_ampm_ko_text_size">9dp</dimen>
+    <dimen name="alarm_widget_ampm_text_size">9dp</dimen>
+    <dimen name="alarm_widget_date_text_size">9dp</dimen>
+    <dimen name="alarm_widget_days_text_size">9dp</dimen>
+    <dimen name="alarm_widget_name_text_size">9dp</dimen>
+    <dimen name="alarm_widget_time_text_size">23dp</dimen>
+    <dimen name="clockwidget_common_date_textview_textsize">11dp</dimen>
+    <dimen name="digitalclock_timeview_number_textview_textsize">27dp</dimen>
+    <dimen name="digitalclock_timeview_ampm_textview_margin_bottom">5dp</dimen>
+    <dimen name="dualclock_timeview_ampm_textview_margin_bottom">4dp</dimen>
+    <dimen name="alarm_widget_time_margin_bottom">0dp</dimen>
+    <dimen name="alarm_widget_time_margin_top">0dp</dimen>
+    <dimen name="alarm_widget_ampm_margin_bottom">4dp</dimen>
+    <dimen name="alarm_widget_min_height">40dp</dimen>
+    <dimen name="alarm_widget_min_width">110dp</dimen>
+    <dimen name="clockwidget_timeview_ampm_textview_textsize">11dp</dimen>
+    <dimen name="dualclock_widget_ampm_text_size">11dp</dimen>
+    <dimen name="dualclock_widget_city_text_size">11dp</dimen>
+    <dimen name="dualclock_widget_date_text_size">11dp</dimen>
+    <dimen name="dualclock_widget_min_height">40dp</dimen>
+    <dimen name="dualclock_widget_min_width">280dp</dimen>
+    <dimen name="dualclock_widget_time_text_size">23dp</dimen>
+</resources>

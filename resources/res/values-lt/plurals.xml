@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Signalas po %d d.</item>
+        <item>N/A</item>
+        <item>Signalas po %d d.</item>
+        <item>N/A</item>
+        <item>Signalas po %d d.</item>
+        <item>Signalas po %d d.</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Signalas po %d val.</item>
+        <item>N/A</item>
+        <item>Signalas po %d val.</item>
+        <item>N/A</item>
+        <item>Signalas po %d val.</item>
+        <item>Signalas po %d val.</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Signalas po %d min.</item>
+        <item>N/A</item>
+        <item>Signalas po %d min.</item>
+        <item>N/A</item>
+        <item>Signalas po %d min.</item>
+        <item>Signalas po %d min.</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>Po %d min.</item>
+        <item>N/A</item>
+        <item>Po %d min.</item>
+        <item>N/A</item>
+        <item>Po %d min.</item>
+        <item>Po %d min.</item>
+    </plurals>
+</resources>

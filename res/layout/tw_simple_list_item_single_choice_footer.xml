@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/default_list_item_size" android:ellipsize="marquee" android:id="@android:id/text1" android:background="?android:selectableItemBackground" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:drawablePadding="18.0dip" android:drawableStart="@drawable/tw_list_icon_create" android:paddingStart="@dimen/alarm_radiobutton_margin_start" android:paddingEnd="@dimen/alarm_detail_item_textview_margin_end" android:paddingVertical="@dimen/clock_winset_listview_padding_top_bottom" />
+</LinearLayout>

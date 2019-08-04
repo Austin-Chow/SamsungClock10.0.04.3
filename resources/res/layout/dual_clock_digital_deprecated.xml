@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="@dimen/dualclock_widget_city_text_size" android:textColor="@color/widget_text_color" android:ellipsize="end" android:gravity="center" android:id="@+id/dual_clock_digital_deprecated" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/dual_clock_deprecated" android:fontFamily="sec-roboto-light"/>

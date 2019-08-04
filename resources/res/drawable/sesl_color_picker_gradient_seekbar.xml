@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <gradient android:startColor="@android:color/black" android:endColor="@android:color/white" android:angle="0"/>
+    <corners android:radius="@dimen/sesl_color_picker_seekbar_track_radius"/>
+    <size android:height="@dimen/sesl_color_picker_seekbar_track_height" android:width="0dp"/>
+</shape>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/divider_bixby_description" style="@style/ListViewLineSeperator"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bixby_voice" android:soundEffectsEnabled="false" android:paddingVertical="0dp" style="@style/ListViewStyle">
+        <LinearLayout android:orientation="vertical" android:id="@+id/bixby_voice_text_layout" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingVertical="@dimen/alarm_winset_listview_padding_top_bottom">
+            <TextView android:text="@string/alarm_bixby_voice" style="@style/TextStyle_1"/>
+            <TextView android:textColor="?android:attr/textColorSecondary" android:text="@string/alarm_bixby_description" android:maxLines="3" android:layout_marginEnd="@dimen/alarm_detail_item_switch_margin_start" style="@style/TextStyle_2"/>
+        </LinearLayout>
+        <Switch android:gravity="center_vertical" android:id="@+id/bixby_voice_switch" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:checked="true" android:contentDescription="@string/alarm_bixby_voice" android:paddingStart="0dp" android:paddingEnd="@dimen/alarm_detail_item_textview_margin_end"/>
+    </LinearLayout>
+    <View android:id="@+id/divider_bixby_voice" style="@style/ListViewLineSeperator"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/celebrity" android:onClick="optionClicked" android:paddingVertical="0dp" style="@style/ListViewStyle">
+        <LinearLayout android:orientation="vertical" android:id="@+id/celebrity_text_layout" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingVertical="@dimen/alarm_winset_listview_padding_top_bottom">
+            <TextView android:text="@string/alarm_celeb_voice" style="@style/TextStyle_1"/>
+            <TextView android:textColor="?android:attr/textColorSecondary" android:id="@+id/celebrity_description" android:text="@string/alarm_celeb_voice_sub_text" android:maxLines="3" style="@style/TextStyle_2"/>
+            <TextView android:textColor="@color/alarm_detail_sub_text_color" android:id="@+id/celebrity_value" android:maxLines="3" android:drawablePadding="4dp" style="@style/TextStyle_2"/>
+        </LinearLayout>
+        <Switch android:gravity="center_vertical" android:id="@+id/celebrity_switch" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:checked="true" android:drawablePadding="14dp" android:contentDescription="@string/alarm_celeb_voice" android:drawableStart="@drawable/alarm_option_line" android:paddingStart="0dp" android:paddingEnd="@dimen/alarm_detail_item_textview_margin_end"/>
+    </LinearLayout>
+</LinearLayout>

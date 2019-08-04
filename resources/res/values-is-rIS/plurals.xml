@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>Vekjari hringir eftir %d daga</item>
+        <item>N/A</item>
+        <item>Vekjari hringir eftir %d dag</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>Vekjari hringir eftir %d klukkustundir</item>
+        <item>N/A</item>
+        <item>Vekjari hringir eftir %d klukkustund</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>Vekjari hringir eftir %d mínútur</item>
+        <item>N/A</item>
+        <item>Vekjari hringir eftir %d mínútu</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>Eftir %d mínútur</item>
+        <item>N/A</item>
+        <item>Eftir %d mínútu</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.sec.android.app.clockpackage.alarm.view.AlarmRepeatButton android:layout_gravity="center_horizontal" android:id="@+id/custom_alarm_repeat_btn" android:layout_width="match_parent" android:layout_height="@dimen/alarm_repeat_toggle_height" android:layout_marginBottom="13dp"/>
+</LinearLayout>

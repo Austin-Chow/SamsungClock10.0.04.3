@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="alarm_main_alert_in_day_plurals">
+        <item>سيكون المنبه في غضون %d يوم</item>
+        <item>سيكون المنبه في غضون %d يوم</item>
+        <item>سيكون المنبه في غضون يوم واحد</item>
+        <item>سيكون المنبه في غضون يومَين</item>
+        <item>سيكون المنبه في غضون %d أيام</item>
+        <item>سيكون المنبه في غضون %d يوماً</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_hour_plurals">
+        <item>سيكون المنبه في غضون %d ساعة</item>
+        <item>سيكون المنبه في غضون %d ساعة</item>
+        <item>سيكون المنبه في غضون ساعة واحدة</item>
+        <item>سيكون المنبه في غضون ساعتَين</item>
+        <item>سيكون المنبه في غضون %d ساعات</item>
+        <item>سيكون المنبه في غضون %d ساعة</item>
+    </plurals>
+    <plurals name="alarm_main_alert_in_min_plurals">
+        <item>سيكون المنبه في غضون %d دقيقة</item>
+        <item>سيكون المنبه في غضون %d دقيقة</item>
+        <item>سيكون المنبه في غضون دقيقة واحدة</item>
+        <item>سيكون المنبه في غضون دقيقتَين</item>
+        <item>سيكون المنبه في غضون %d دقائق</item>
+        <item>سيكون المنبه في غضون %d دقيقة</item>
+    </plurals>
+    <plurals name="alarm_main_alert_snooze_in_min_plurals">
+        <item>خلال %d دقيقة</item>
+        <item>خلال %d دقيقة</item>
+        <item>خلال دقيقة واحدة</item>
+        <item>خلال دقيقتَين</item>
+        <item>خلال %d دقائق</item>
+        <item>خلال %d دقيقة</item>
+    </plurals>
+</resources>

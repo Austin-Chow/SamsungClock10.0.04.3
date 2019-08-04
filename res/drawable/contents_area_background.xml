@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/clock_list_floating_background_color" />
+    <stroke android:width="@dimen/contents_area_stroke" android:color="@color/clock_list_floating_stroke_color" />
+    <corners android:radius="@dimen/clock_list_card_conner_radius" />
+</shape>
